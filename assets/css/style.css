@@ -1,6 +1,7 @@
 body {
   width: 100%;
   font-family: 'Roboto', sans-serif;
+  margin: 21px 27px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -9,10 +10,17 @@ font-family: 'Montserrat', sans-serif;
 
 .top-nav {
   color: #000000;
-	font-size: 24px;
+	font-size: 20px;
 	text-decoration: none;
 }
-
+p {
+    font-size: 16px;
+}
+ul, li {
+    list-style: none;
+    display:inline;
+    overflow: hidden;
+}
 li {
   padding: 50px;
   justify-content:space-evenly;
@@ -22,21 +30,19 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-ul {
-
+.img-home {
+    width: 200px; /*PLACEHOLDER*/
 }
 
-ul, li {
-    list-style: none;
-    display:inline;
-    overflow: hidden;
-    }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+p{
+    font-size: 20px;
+}
+a:hover {
+  text-decoration: underline;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
