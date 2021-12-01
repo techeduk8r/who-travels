@@ -1,0 +1,72 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* Hero styles */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 870px;
+  align-content: center;
+  justify-content: center;
+}
+
+.hero-img-box {
+  grid-area: 1/1/2/2;
+}
+
+.hero-img {
+  display: grid;
+  min-width: 350px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-shadow-text {
+  display: grid;
+  grid-area: 1/1/2/2;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.hero-content {
+  display: grid;
+  grid-area: 1/1/2/2;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.hero-text {
+}
+
+.hero-h1 {
+  font-size: /* (calc(10pt + 0.15vw))*/ 5rem;
+  letter-spacing: 0.1em;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+}
+
+.hero-h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+  padding: 75px 0px 0px 30px;
+}
+
+.hero-body {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 1.125rem;
+  padding-left: 45px;
+}
