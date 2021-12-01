@@ -1,0 +1,44 @@
+body {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Montserrat', sans-serif;
+}
+
+.top-nav {
+  color: #000000;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+li {
+  padding: 50px;
+  justify-content:space-evenly;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+ul {
+
+}
+
+ul, li {
+    list-style: none;
+    display:inline;
+    overflow: hidden;
+    }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
