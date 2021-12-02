@@ -50,7 +50,7 @@ h4 {
 }
 
 .hero-h1 {
-  font-size: /* (calc(10pt + 0.15vw))*/ 5rem;
+  font-size: 6rem;
   letter-spacing: 0.1em;
   font-weight: 900;
   color: rgba(255, 255, 255, 0.3);
@@ -58,16 +58,66 @@ h4 {
 }
 
 .hero-h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 700;
   color: #ffffff;
   position: relative;
-  padding: 75px 0px 0px 30px;
+  padding: 70px 0px 0px 30px;
 }
 
 .hero-body {
   color: #ffffff;
   font-family: 'Roboto';
-  font-size: 1.125rem;
+  font-size: 1rem;
   padding-left: 45px;
+}
+
+@media (min-width: 768px) {
+  .hero-h1 {
+    font-size: 9rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+  }
+
+  .hero-h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    padding: 110px 0px 0px 30px;
+  }
+
+  .hero-body {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 1.5em;
+    padding-left: 45px;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-h1 {
+    font-size: 10rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+  }
+
+  .hero-h2 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    padding: 125px 0px 0px 30px;
+  }
+
+  .hero-body {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 2em;
+    padding-left: 45px;
+  }
 }
