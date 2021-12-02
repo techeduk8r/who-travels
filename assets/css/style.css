@@ -4,26 +4,32 @@ body {
   margin: 21px 27px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-font-family: 'Montserrat Alternates', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat Alternatives', sans-serif;
 }
 
 .top-nav {
   color: #000000;
-	font-size: 20px;
-	text-decoration: none;
+  font-size: 20px;
+  text-decoration: none;
 }
 p {
-    font-size: 16px;
+  font-size: 16px;
 }
-ul, li {
-    list-style: none;
-    display:inline;
-    overflow: hidden;
+ul,
+li {
+  list-style: none;
+  display: inline;
+  overflow: hidden;
 }
 li {
   padding: 50px;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
 }
 
 a {
@@ -31,18 +37,17 @@ a {
 }
 
 .img-home {
-    width: 200px; /*PLACEHOLDER*/
+  width: 200px; /*PLACEHOLDER*/
 }
-
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-p{
+  p {
     font-size: 20px;
-}
-a:hover {
-  text-decoration: underline;
-    }
+  }
+  a:hover {
+    text-decoration: underline;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
