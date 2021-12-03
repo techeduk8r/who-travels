@@ -60,6 +60,11 @@ a {
 .home-review-piece {
   width: 100px;
 }
+.review-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
