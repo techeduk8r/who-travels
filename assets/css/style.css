@@ -86,45 +86,39 @@ p {
 }
 
 /*current navigation - in progress */
-.top-nav {
-  color: #000000;
-  font-size: 20px;
-  text-decoration: none;
+.nav{
+  padding: 20px;
 }
 
-.menu {
+.nav, .menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-ul,
-li {
-  display: inline;
-  overflow: hidden;
-}
-li {
-  padding: 50px;
+.nav-li {
+  padding:40px;
   list-style: none;
+
 }
 
 a {
   text-decoration: none;
 }
- .menu-checkbox{
-   display: block;
-   margin-left: 32px;
-   z-index: 1;
-   position: relative;
- }
+
+.top-nav{
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
 .hamburger {
   display: block;
-  z-index: 1;
   width: 38px;
   height: 5px;
   margin: 0px 0px 5px 20px;
   position: relative;
-  background: #371a7a;
+  background-color: #371a7a;
   border-radius: 4px;
 }
 /* ---------MEDIA CSS----------
@@ -137,7 +131,7 @@ a {
     font-weight: 700;
     color: #371a7a;
   }
-  .hamburger, .menu-checkbox {
+  .hamburger, {
     display:none;
   }
 }
