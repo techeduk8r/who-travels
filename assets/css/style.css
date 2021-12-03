@@ -51,6 +51,7 @@ a {
   width: 200px; /*PLACEHOLDER*/
 }
 
+/*Home Review Section*/
 .home-review-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -61,12 +62,24 @@ a {
   grid-column-end: 4;
 }
 .home-review-piece {
-  width: 100px;
+  width: 125px;
 }
 .review-img {
   width: 100px;
   height: 100px;
   object-fit: cover;
+}
+.read-review-button {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  background-color: #3f1a7a;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 85px;
+  border-radius: 25px;
 }
 
 /* Medium devices (tablets, 768px and up) */
