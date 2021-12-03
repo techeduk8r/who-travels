@@ -50,7 +50,7 @@ p {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 0px 0px;
-  background-color: #ffffff;
+  border: solid 4px #5904e0;
   margin: 20px;
   border: 4px solid #5904e;
   border-top-left-radius: 14px;
@@ -76,7 +76,7 @@ p {
   color: #000;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 1.125rem;
+  font-size: 20px;
   padding-left: 10px;
 }
 
@@ -84,22 +84,44 @@ p {
   color: #000;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 16px;
   padding-left: 10px;
 }
 
-.destination-stars {
-  color: #000000;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 0.75rem;
-  padding: 10px;
+.star-rating {
+  justify-content: left;
+}
+
+.fa-star {
+  color: #5904e0;
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.fa-star-half-empty {
+  color: #5904e0;
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.fa-star-o {
+  color: #5904e0;
+  font-size: 1rem;
+  padding: 5px;
 }
 
 .destination-next {
   grid-area: 2 / 3 / 3 / 4;
   padding: 10px;
   justify-self: right;
+  align-self: center;
+}
+
+.fa-angle-right {
+  color: #5904e0;
+  font-size: 6rem;
+  padding: 5px;
+  justify-self: center;
   align-self: center;
 }
 
