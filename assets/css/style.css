@@ -87,7 +87,7 @@ p {
 
 /*current navigation - in progress */
 .nav{
-  padding: 20px;
+  padding: 30px;
 }
 
 .nav, .menu {
@@ -112,6 +112,22 @@ a {
     text-decoration: none;
 }
 
+ .menu {
+        position: fixed;
+        left: 100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.4s;
+   		margin-top: -10px;
+
+
+    }
+
 .hamburger {
   display: block;
   width: 38px;
@@ -121,21 +137,52 @@ a {
   background-color: #371a7a;
   border-radius: 4px;
 }
+
+    .menu.active {
+        left: 0;
+    }
+    .nav-li {
+        margin-top: -50px;
+    }
+
+    .hamburger-icon {
+        display: block;
+        cursor: pointer;
+        right: 20px;
+        position: absolute;
+    }
+
 /* ---------MEDIA CSS----------
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+.hamburger-icon {
+    display: none;
+}
   p {
     font-size: 20px;
   }
+
+.nav {
+  display: inline;
+
+}
   a:hover {
     font-weight: 700;
     color: #371a7a;
   }
-  .hamburger, {
-    display:none;
-  }
-}
 
+.menu {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    left: auto;
+    top: auto;
+
+}
+  .nav-li {
+        margin: auto;
+   }
  Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 

@@ -31,8 +31,8 @@
             </nav>
         </section>
     </header>
-    <!--
-      <section class="hero">
+
+    <section class="hero">
         <div class="hero-img-box">
             <img class="hero-img" src="/assets/img/heros/hero-home.jpg" alt="photo of man looking at stars">
         </div>
@@ -91,9 +91,19 @@
 
     <footer class="footer">
     </footer>
--->
 
+    <!-- NEEDS WORK - WILL MOVE TO EXTERNAL AFTER TESTING-->
+    <script>
+        const openMenu = document.querySelector(".hamburger-icon")
+        const menu = document.querySelector(".menu")
 
+        openMenu.addEventListener("click", mobileMenu)
+
+        function mobileMenu() {
+
+            menu.classList.toggle("active")
+        }
+    </script>
 
 </body>
 </html>
