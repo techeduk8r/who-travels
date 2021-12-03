@@ -22,7 +22,7 @@ p {
   padding: 15px;
 }
 
-/* Hero styles */ /* delete this comment
+/* Hero styles */ 
 .hero {
   display: grid;
   grid-template-columns: 1fr;
@@ -86,47 +86,39 @@ p {
 }
 
 /*current navigation - in progress */
-.nav{
-  padding: 30px;
-}
 
-.nav, .menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.nav {
+  display: block;
 }
 
 .nav-li {
-  padding:40px;
+  padding: 30px 0px;
   list-style: none;
-
+  margin-top: -50px;
 }
 
-a {
-  text-decoration: none;
+.menu {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 100%;
+  top: 0.5rem;
+  flex-direction: column;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.4s;
+  margin-top: 0px;
 }
 
-.top-nav{
-    color: #000000;
-    font-size: 20px;
-    text-decoration: none;
+.hamburger-icon {
+  display: block;
+  cursor: pointer;
+  right: 20px;
+  position: fixed;
+  top: 2rem;
 }
-
- .menu {
-        position: fixed;
-        left: 100%;
-        top: 5rem;
-        flex-direction: column;
-        background-color: #fff;
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-        text-align: center;
-        transition: 0.4s;
-   		margin-top: -10px;
-
-
-    }
 
 .hamburger {
   display: block;
@@ -138,56 +130,51 @@ a {
   border-radius: 4px;
 }
 
-    .menu.active {
-        left: 0;
-    }
-    .nav-li {
-        margin-top: -50px;
-    }
-
-    .hamburger-icon {
-        display: block;
-        cursor: pointer;
-        right: 20px;
-        position: absolute;
-    }
-
+.menu.active {
+  left: 0;
+}
+.top-nav {
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
 /* ---------MEDIA CSS----------
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-.hamburger-icon {
+  .hamburger-icon {
     display: none;
-}
+  }
+
   p {
     font-size: 20px;
   }
 
-.nav {
-  display: inline;
+  .nav {
+    display: inline;
+  }
 
-}
   a:hover {
     font-weight: 700;
     color: #371a7a;
   }
 
-.menu {
+  .menu {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     left: auto;
     top: auto;
-
+    width: 80%;
+    margin-left:100px
+  }
 }
-  .nav-li {
-        margin: auto;
-   }
- Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
 
-/* Tablet  @media for Hero */ /* delete this comment
-  @media (min-width: 768px) {
+/* Tablet  @media for Hero */
+@media (min-width: 768px) {
   .hero-h1 {
     font-size: 9rem;
     letter-spacing: 0.1em;
@@ -210,8 +197,8 @@ a {
     font-size: 1.5em;
     padding-left: 45px;
   }
-
-/* Desktop  @media for Hero */ /* delete this comment
+}
+/* Desktop  @media for Hero */
 @media (min-width: 992px) {
   .hero-h1 {
     font-size: 10rem;
@@ -236,4 +223,7 @@ a {
     padding-left: 45px;
   }
 }
-*/
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+}
