@@ -48,6 +48,19 @@ a {
   width: 200px; /*PLACEHOLDER*/
 }
 
+.home-review-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.home-review-copy {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.home-review-piece {
+  width: 100px;
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   p {
