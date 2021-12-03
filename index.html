@@ -9,9 +9,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,500;0,700;0,900;1,900&family=Roboto&display=swap" rel="stylesheet">
     <title>Who Travels</title>
+ 
 </head>
 <body>
-    <section class="hero">
+    <header>
+        <section class="header">
+            <img src="#" alt="Who Travels Logo" class="logo">
+            <nav>
+                <div class="mobile-menu">
+                    <input type="checkbox">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+
+                    <ul class="menu">
+                        <li><a href="book.html" class="top-nav" id="book">Book Trip</a></li>
+                        <li><a href="destinations.html" class="top-nav" id="destinations">Destinations</a></li>
+                        <li><a href="about.html" class="top-nav" id="about">About Us</a></li>
+                        <li><a href="contact.html" class="top-nav" id="contact">Contact</a></li>
+                        <li><a href="explore.html" class="top-nav" id="explore">Explore</a></li>
+                    </ul>
+
+                </div>
+            </nav>
+        </section>
+    </header>
+      <section class="hero">
         <div class="hero-img-box">
             <img class="hero-img" src="/assets/img/heros/hero-home.jpg" alt="photo of man looking at stars">
         </div>
@@ -23,5 +46,54 @@
             </span>
         </div>
     </section>
+
+    <h1>Who Travels?</h1>
+    <p>It could be you! The one stop shop for all time and space travel needs.</p>
+
+    <p>From Pompeii in 79 A.D. to the Sapphire Waterfall of planet Midnight, Who Travels? offers a stunning array of adventures across time and space. See what our guests have to say about their favorite locals. </p>
+    <p>Explore a place in time or space</p>
+    <form>
+        <label for="form-destination">Destination:</label><br>
+        <select class="form-destination" name="home-destination">
+            <option value="destination1">Destination #1</option>
+            <option value="destination2">Destination #2</option>
+            <option value="destination3">Destination #3</option>
+        </select><br>
+        <label for="form-time">Time Period:</label><br> <!-- Should this be a dropdown?-->
+        <input type="text" id="form-time" name="time-period"><br>
+        <label for="form-time">Travel Dates:</label><br>
+        <input type="date" id="form-dates" name="travel-dates"><br>
+    </form>
+    <button class="begin-journey">Begin My Journey
+    </button>
+
+
+    <h2>Check out where others have gone</h2>
+    <img src="/assets/img/others/sapphire-falls.jpg" alt="Sapphire Falls" class="img-home">
+    <p>Read Review</p>
+    <img src="/assets/img/others/cresent-resort.png" alt="Cresent Resort" class="img-home">
+    <p>Read Review</p>
+    <img src="/assets/img/others/pompeii.jpg" alt="Pompeii" class="img-home">
+    <p>Read Review</p>
+
+    <h2>Popular Destinations</h2>
+
+    <section class="instagram">
+        <h3>Instagram</h3>
+        <h3>#WhoTravels</h3>
+        <ul>
+            <li><img src="#" alt="" class="insta-post"></li>
+            <li><img src="#" alt="" class="insta-post"></li>
+            <li><img src="#" alt="" class="insta-post"></li>
+            <li><img src="#" alt="" class="insta-post"></li>
+            <li><img src="#" alt="" class="insta-post"></li>
+            <li><img src="#" alt="" class="insta-post"></li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+    </footer>
+
+
 </body>
 </html>

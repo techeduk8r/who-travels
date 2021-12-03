@@ -6,11 +6,18 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
-/* Hero styles */
+p {
+  font-size: 16px;
+}
+
+  
+  /* Hero styles */
 .hero {
   display: grid;
   grid-template-columns: 1fr;
@@ -46,6 +53,7 @@ h4 {
   margin-left: 15px;
   margin-right: 15px;
 }
+
 .hero-text {
 }
 
@@ -72,7 +80,60 @@ h4 {
   padding-left: 45px;
 }
 
+
+  
+  /*current navigation - in progress */
+.top-nav {
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+}
+ul,
+li {
+  list-style: none;
+  display: inline;
+  overflow: hidden;
+}
+li {
+  padding: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hamburger {
+  display: block;
+  z-index: 1;
+  width: 38px;
+  height: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #371a7a;
+  border-radius: 4px;
+}
+.img-home {
+  width: 200px; /*PLACEHOLDER*/
+}
+
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  p {
+    font-size: 20px;
+  }
+  a:hover {
+    font-weight: 700;
+    color: #371a7a;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+/* Tablet  @media for Hero */  
+  @media (min-width: 768px) {
   .hero-h1 {
     font-size: 9rem;
     letter-spacing: 0.1em;
@@ -95,8 +156,8 @@ h4 {
     font-size: 1.5em;
     padding-left: 45px;
   }
-}
 
+/* Desktop  @media for Hero */
 @media (min-width: 992px) {
   .hero-h1 {
     font-size: 10rem;
