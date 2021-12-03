@@ -60,6 +60,7 @@ a {
 .home-review-copy {
   grid-column-start: 1;
   grid-column-end: 4;
+  text-align: center;
 }
 .home-review-piece {
   width: 125px;
@@ -68,6 +69,11 @@ a {
   width: 100px;
   height: 100px;
   object-fit: cover;
+}
+.stars {
+  color: #3f1a7a;
+  margin-top: 0;
+  margin-bottom: 5px;
 }
 .read-review-button {
   font-family: 'Roboto', sans-serif;
