@@ -16,9 +16,10 @@ p {
   font-size: 16px;
 }
 
+/*Where To Content*/
 .where-to {
   display: grid;
-  grid template columns: 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   height: 415px;
   width: 100%;
@@ -32,4 +33,19 @@ p {
 .where-to-world {
   background-image: url('/assets/img/where-to/space-414.jpg');
   background-position-y: center;
+}
+.where-to-link {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #FFFFFF;
+    font-size: 45px;
+    text-decoration: none;
+    font-weight:700;
+    text-shadow: 1px 1px 5px #000000;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+@media (min-width: 768px) {
+    /*Where To page tablet content*/
 }
