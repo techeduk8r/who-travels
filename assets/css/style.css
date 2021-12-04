@@ -106,12 +106,13 @@ p {
   right: 0;
   top: 5.2rem;
   flex-direction: column;
-  background-color: lavender; /*Placeholder*/
-  border-radius: 10px;
+  background-color: lavender;
+  border-radius: 20px;
   text-align: center;
   transition: 0.4s;
-  margin-top: 0px;
-  opacity: 85%;
+  margin-left: 0px;
+  padding: 0px 150px;
+  opacity: 95%;
 }
 .hamburger-icon,
 .logo {
@@ -139,7 +140,7 @@ p {
 }
 .top-nav {
   color: #000000;
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: none;
 }
 a {
@@ -162,8 +163,9 @@ a {
   }
 
   a:hover {
-    font-weight: 700;
+    font-weight: 600;
     color: #371a7a;
+    text-decoration: underline;
   }
   .menu {
     position: relative;
@@ -177,13 +179,14 @@ a {
     background-color: #fff;
     opacity: 100%;
     border-radius: 63px;
-    padding: 20px 20px 20px 150px;
+    padding: 12px 20px 10px 150px;
   }
   .logo {
+    max-width: 95px;
     background-color: #fff;
     border-radius: 63px;
-    margin: 10px 15px;
-    padding: 10px;
+    margin: 3px 15px;
+    padding: 2px;
     z-index: 1;
     top: 1rem;
     content: url('/assets/img/logos/logo-icon/who-travels-icon.svg');
@@ -243,4 +246,11 @@ a {
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+  .top-nav {
+    font-size: 24px;
+  }
+    .logo {
+    max-width: 100px;
+    margin: 4px 15px;
+    padding: 2px
 }
