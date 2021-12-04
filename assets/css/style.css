@@ -145,6 +145,15 @@ p {
 a {
   text-decoration: none;
 }
+
+#about-page {
+  content: url('/assets/img/heros/hero-about.jpg');
+}
+
+#contact-page {
+  content: url('/assets/img/heros/hero-contact.jpg');
+}
+
 /* ---------MEDIA CSS----------
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {

@@ -1,9 +1,9 @@
 //Open Mobile Menu
-const openMenu = document.querySelector('.hamburger-icon')
-const menu = document.querySelector('.menu')
+const openMenu = document.querySelector('.hamburger-icon');
+const menu = document.querySelector('.menu');
 
-openMenu.addEventListener('click', mobileMenu)
+openMenu.addEventListener('click', mobileMenu);
 
 function mobileMenu() {
-  menu.classList.toggle('active')
+  menu.classList.toggle('active');
 }
