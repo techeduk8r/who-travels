@@ -94,19 +94,19 @@ p {
 
 .fa-star {
   color: #5904e0;
-  font-size: 1rem;
+  font-size: 16px;
   padding: 5px;
 }
 
 .fa-star-half-empty {
   color: #5904e0;
-  font-size: 1rem;
+  font-size: 16px;
   padding: 5px;
 }
 
 .fa-star-o {
   color: #5904e0;
-  font-size: 1rem;
+  font-size: 16px;
   padding: 5px;
 }
 
@@ -132,6 +132,26 @@ p {
     gap: 25px;
     max-width: calc(2 * 350px);
   }
+
+  h1 {
+    font-size: 55px;
+  }
+
+  .destination-title {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding-left: 10px;
+  }
+
+  .destination-subtitle {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 10px;
+  }
 }
 
 /* Desktop and up */
@@ -140,12 +160,23 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     max-width: calc(3 * 350px);
   }
+  h1 {
+    font-size: 75px;
+  }
 
   .destination-title {
-    font-size: 1.125rem;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding-left: 10px;
   }
 
   .destination-subtitle {
-    font-size: 0.9375rem;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 10px;
   }
 }
