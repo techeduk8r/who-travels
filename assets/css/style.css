@@ -16,7 +16,17 @@ p {
   font-size: 16px;
 }
 
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 25px;
+}
+
 /*Where To Content*/
+
+.where-to-title {
+    margin-bottom: 60px;
+}
 .where-to {
   display: grid;
   grid-template-columns: 1fr;
@@ -26,13 +36,16 @@ p {
 }
 .where-to-past {
   background-image: url('/assets/img/where-to/past-414.jpg');
+  background-repeat: no-repeat;
 }
 .where-to-future {
   background-image: url('/assets/img/where-to/future-414.jpg');
+   background-repeat: no-repeat;
 }
 .where-to-world {
   background-image: url('/assets/img/where-to/space-414.jpg');
   background-position-y: center;
+   background-repeat: no-repeat;
 }
 .where-to-link {
     font-family: 'Montserrat Alternates', sans-serif;
@@ -41,6 +54,7 @@ p {
     text-decoration: none;
     font-weight:700;
     text-shadow: 1px 1px 5px #000000;
+    text-align: center;
     display: flex;
     justify-content: center;
     margin-top: 45px;
@@ -48,4 +62,59 @@ p {
 
 @media (min-width: 768px) {
     /*Where To page tablet content*/
+
+    .where-to-title {
+    margin-bottom: 55px;
+}
+.where-to {
+  height: 768px;
+}
+.where-to-past {
+  background-image: url('/assets/img/where-to/past-768.jpg');
+  background-size: 120%;
+}
+.where-to-future {
+  background-image: url('/assets/img/where-to/future-768.jpg');
+  background-size: 120%;
+}
+.where-to-world {
+  background-image: url('/assets/img/where-to/space-768.jpg');
+  background-position-x: center;
+  background-size: 120%;
+}
+.where-to-link {
+    font-size: 55px;
+    text-shadow: 1px 1px 8px #000000;
+    margin-top: 95px;
+}
+}
+
+@media (min-width: 992px) {
+    /*Where To page desktop content*/
+    .where-to-title {
+    margin-bottom: 90px;
+}
+.where-to {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 1000px;
+  width: 100%;
+}
+.where-to-past {
+  background-image: url('/assets/img/where-to/past-desktop.jpg');
+  background-size: 100%;
+}
+.where-to-future {
+  background-image: url('/assets/img/where-to/future-desktop.jpg');
+  background-size: 100%;
+}
+.where-to-world {
+  background-image: url('/assets/img/where-to/space-desktop.jpg');
+  background-size: 100%;
+}
+.where-to-link {
+    font-size: 75px;
+    text-shadow: 1px 1px 10px #000000;
+    margin-top: 180px;
+}
 }
