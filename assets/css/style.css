@@ -130,7 +130,7 @@ p {
   .destinations {
     grid-template-columns: 1fr 1fr;
     gap: 25px;
-    max-width: calc(2 * 290px);
+    max-width: calc(2 * 350px);
   }
 }
 
