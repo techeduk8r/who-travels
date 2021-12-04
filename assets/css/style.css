@@ -1,0 +1,35 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+p {
+  font-size: 16px;
+}
+
+.where-to {
+  display: grid;
+  grid template columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 415px;
+  width: 100%;
+}
+.where-to-past {
+  background-image: url('/assets/img/where-to/past-414.jpg');
+}
+.where-to-future {
+  background-image: url('/assets/img/where-to/future-414.jpg');
+}
+.where-to-world {
+  background-image: url('/assets/img/where-to/space-414.jpg');
+  background-position-y: center;
+}
