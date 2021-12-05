@@ -17,15 +17,15 @@ p {
 }
 
 h1 {
-    font-size: 45px;
-    font-weight: 700;
-    margin-left: 25px;
+  font-size: 45px;
+  font-weight: 700;
+  margin-left: 25px;
 }
 
 /*Where To Content*/
 
 .where-to-title {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 .where-to {
   display: grid;
@@ -40,81 +40,100 @@ h1 {
 }
 .where-to-future {
   background-image: url('/assets/img/where-to/future-414.jpg');
-   background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 .where-to-world {
   background-image: url('/assets/img/where-to/space-414.jpg');
   background-position-y: center;
-   background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 .where-to-link {
-    font-family: 'Montserrat Alternates', sans-serif;
-    color: #FFFFFF;
-    font-size: 45px;
-    text-decoration: none;
-    font-weight:700;
-    text-shadow: 1px 1px 5px #000000;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-top: 45px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #ffffff;
+  font-size: 45px;
+  text-decoration: none;
+  font-weight: 700;
+  text-shadow: 1px 1px 5px #000000;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
 }
 
 @media (min-width: 768px) {
-    /*Where To page tablet content*/
+  /*Where To page tablet content*/
 
-    .where-to-title {
+  .where-to-title {
     margin-bottom: 55px;
-}
-.where-to {
-  height: 768px;
-}
-.where-to-past {
-  background-image: url('/assets/img/where-to/past-768.jpg');
-  background-size: 120%;
-}
-.where-to-future {
-  background-image: url('/assets/img/where-to/future-768.jpg');
-  background-size: 120%;
-}
-.where-to-world {
-  background-image: url('/assets/img/where-to/space-768.jpg');
-  background-position-x: center;
-  background-size: 120%;
-}
-.where-to-link {
+  }
+  .where-to {
+    height: 768px;
+  }
+  .where-to-past {
+    background-image: url('/assets/img/where-to/past-768.jpg');
+    background-size: 120%;
+  }
+  .where-to-future {
+    background-image: url('/assets/img/where-to/future-768.jpg');
+    background-size: 120%;
+  }
+  .where-to-world {
+    background-image: url('/assets/img/where-to/space-768.jpg');
+    background-position-x: center;
+    background-size: 120%;
+  }
+  .where-to-link {
     font-size: 55px;
     text-shadow: 1px 1px 8px #000000;
     margin-top: 95px;
-}
+  }
 }
 
 @media (min-width: 992px) {
-    /*Where To page desktop content*/
-    .where-to-title {
+  /*Where To page desktop content*/
+  .where-to-title {
     margin-bottom: 90px;
-}
-.where-to {
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  height: 1000px;
-  width: 100%;
-}
-.where-to-past {
-  background-image: url('/assets/img/where-to/past-desktop.jpg');
-  background-size: 100%;
-}
-.where-to-future {
-  background-image: url('/assets/img/where-to/future-desktop.jpg');
-  background-size: 100%;
-}
-.where-to-world {
-  background-image: url('/assets/img/where-to/space-desktop.jpg');
-  background-size: 100%;
-}
-.where-to-link {
+  }
+  .where-to {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 1000px;
+    width: 100%;
+  }
+  .where-to-past {
+    background-image: none;
+    background-size: 100%;
+  }
+  .where-to-past:hover {
+    background-image: url('/assets/img/where-to/past-desktop.jpg');
+  }
+  .where-to-future {
+    background-image: none;
+    background-size: 100%;
+  }
+  .where-to-future:hover {
+    background-image: url('/assets/img/where-to/future-desktop.jpg');
+  }
+  .where-to-world {
+    background-image: none;
+    background-size: 100%;
+    background-position-y: top;
+  }
+  .where-to-world:hover {
+    background-image: url('/assets/img/where-to/space-desktop.jpg');
+  }
+  .where-to-link {
     font-size: 75px;
+    color: #3f1a7a;
+    text-shadow: none;
+    margin-top: 225px;
+  }
+  .where-to-link:hover {
+    color: #ffffff;
     text-shadow: 1px 1px 10px #000000;
-    margin-top: 180px;
-}
+  }
+  .where-to-world .where-to-link {
+    margin-top: 175px;
+  }
 }
