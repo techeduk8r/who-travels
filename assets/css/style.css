@@ -1,6 +1,6 @@
 body {
-  margin: 0px 0;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
 }
 
 h1,
@@ -191,3 +191,374 @@ h6 {
     padding-left: 10px;
   }
 }
+p {
+  font-size: 16px;
+}
+
+/* logo styles */
+.logo {
+  max-width: 80px;
+  padding: 15px;
+  left: 25px;
+  top: 0rem;
+}
+
+/* Hero styles */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 700px;
+  align-content: center;
+  justify-content: center;
+}
+
+.hero-img-box {
+  grid-area: 1/1/2/2;
+}
+
+.hero-img {
+  display: grid;
+  min-width: 350px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-shadow-text {
+  display: grid;
+  grid-area: 1/1/2/2;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.hero-content {
+  display: grid;
+  grid-area: 1/1/2/2;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.hero-text {
+}
+
+.hero-h1 {
+  font-size: 6rem;
+  letter-spacing: 0.1em;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+}
+
+.hero-h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+  padding: 70px 0px 0px 30px;
+}
+
+.hero-body {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 1rem;
+  padding-left: 45px;
+}
+
+/*current navigation - in progress */
+
+.nav {
+  display: block;
+}
+
+.nav-li {
+  padding: 20px 0px;
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  left: 100%;
+  right: 0;
+  top: 5.2rem;
+  flex-direction: column;
+  background-color: lavender;
+  border-radius: 20px;
+  text-align: center;
+  transition: 0.4s;
+  margin-left: 0px;
+  padding: 0px 150px;
+  opacity: 95%;
+}
+.hamburger-icon,
+.logo {
+  display: block;
+  cursor: pointer;
+  position: absolute;
+}
+
+.hamburger-icon {
+  right: 25px;
+  top: 1rem;
+}
+
+.hamburger {
+  display: block;
+  width: 65px;
+  height: 10px;
+  margin: 0px 0px 12px 20px;
+  background-color: #fff;
+  border-radius: 13px;
+}
+
+.menu.active {
+  left: 0;
+}
+.top-nav {
+  color: #000000;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+
+/*slideshow container styles */
+
+.slideshow {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin: 10px;
+}
+
+.slideshow-heading {
+  align-self: center;
+  justify-self: center;
+}
+
+.slideshow-heading > h2 {
+  text-align: center;
+  font-size: 35px;
+}
+.slideshow-container-img {
+  max-width: 700px;
+  position: relative;
+  margin: 10px;
+}
+
+
+/* Overlay text */
+.slideshow-overlay-text {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+
+  background-color: rgba(23, 3, 58, 0.5);
+}
+.title {
+  color: #f2f2f2;
+  font-size: 25px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: right;
+  padding-right: 10px;
+
+}
+.caption {
+  color: #f2f2f2;
+  font-size: 16px;
+  font-family: 'Roboto';
+  text-align: right;
+  padding-right: 10px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Tablet  @media for slideshow */
+@media (min-width: 768px) {
+  .slideshow {
+    display: grid;
+    grid-template-columns: 1fr, 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 10px;
+  }
+  .slideshow-heading {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .slideshow-container {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .pop-destinations-heading {
+    text-align: left;
+    font-size: 35px;
+    padding: 20px;
+  }
+}
+
+/* Desktop  @media for slideshow */
+@media (min-width: 992px) {
+  .slideshow {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 10px;
+  }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .hamburger-icon {
+    display: none;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .nav {
+    display: inline;
+  }
+
+  a:hover {
+    font-weight: bold;
+   }
+  .menu {
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    left: auto;
+    right: auto;
+    top: -682px;
+    margin: 0px 40px 0px 25px;
+    transition: none;
+    background-color: #fff;
+    opacity: 100%;
+    border-radius: 63px;
+    padding: 12px 20px 10px 150px;
+  }
+  .logo {
+    max-width: 95px;
+    background-color: #fff;
+    border-radius: 63px;
+    margin: 3px 15px;
+    padding: 2px;
+    z-index: 1;
+    top: 1rem;
+    content: url('/assets/img/logos/logo-icon/who-travels-icon.svg');
+  }
+}
+
+/* Tablet  @media for Hero */
+@media (min-width: 768px) {
+  .hero-h1 {
+    font-size: 9rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+  }
+
+  .hero-h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    padding: 110px 0px 0px 30px;
+  }
+
+  .hero-body {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 1.5em;
+    padding-left: 45px;
+  }
+}
+/* Desktop  @media for Hero */
+@media (min-width: 992px) {
+  .hero-h1 {
+    font-size: 10rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+  }
+
+  .hero-h2 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    padding: 125px 0px 0px 30px;
+  }
+
+  .hero-body {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 2em;
+    padding-left: 45px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .top-nav {
+    font-size: 24px;
+  }
+    .logo {
+    max-width: 100px;
+    margin: 4px 15px;
+    padding: 2px
+}
+
