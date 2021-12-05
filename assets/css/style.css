@@ -145,6 +145,10 @@ p {
 a {
   text-decoration: none;
 }
+
+#about-page p {
+  margin: 0px 27px 20px 27px;
+}
 /* ---------MEDIA CSS----------
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
