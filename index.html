@@ -48,23 +48,33 @@
         </section>
     </header>
 
-
-    <p>From Pompeii in 79 A.D. to the Sapphire Waterfall of planet Midnight, Who Travels? offers a stunning array of adventures across time and space. See what our guests have to say about their favorite locals. </p>
-    <p>Explore a place in time or space</p>
-    <form>
-        <label for="form-destination">Destination:</label><br>
-        <select class="form-destination" name="home-destination">
-            <option value="destination1">Destination #1</option>
-            <option value="destination2">Destination #2</option>
-            <option value="destination3">Destination #3</option>
-        </select><br>
-        <label for="form-time">Time Period:</label><br>
-        <input type="text" id="form-time" name="time-period"><br>
-        <label for="form-time">Travel Dates:</label><br>
-        <input type="date" id="form-dates" name="travel-dates"><br>
-    </form>
-    <button class="begin-journey">Begin My Journey
-    </button>
+    <div class="search-form">
+        <div class="hero-body">
+            <p>Explore a place in time or space</p>
+        </div>
+        <form>
+            <div class="search-form-item">
+                <label for="form-destination">Destination:</label>
+                <select class="form-destination" name="home-destination">
+                    <option value="destination1">Destination #1</option>
+                    <option value="destination2">Destination #2</option>
+                    <option value="destination3">Destination #3</option>
+                </select>
+            </div>
+            <div class="search-form-item">
+                <label for="form-time">Time Period:</label>
+                <input type="text" id="form-time" name="time-period">
+            </div>
+            <div class="search-form-item">
+                <label for="form-time">Travel Dates:</label>
+                <input type="date" id="form-dates" name="travel-dates">
+            </div>
+        </form>
+        <div class="search-form-button">
+            <button>Begin My Journey
+            </button>
+        </div>
+    </div>
 
 
     <h2>Check out where others have gone</h2>
