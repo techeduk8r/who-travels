@@ -13,25 +13,39 @@
 </head>
 <body>
     <header>
-        <section class="header">
-            <img src="/assets/img/logos/logo icon/who-travels-icon.svg" alt="Who Travels Logo" class="logo">
-            <nav>
-                <div class="mobile-menu">
-                    <input type="checkbox">
-                    <span class="hamburger"></span>
-                    <span class="hamburger"></span>
-                    <span class="hamburger"></span>
 
+
+        <section class="hero">
+            <div class="hero-img-box">
+                <img class="hero-img" src="/assets/img/heros/hero-home.jpg" alt="photo of man looking at stars">
+            </div>
+            <div class="hero-content">
+                <span class="hero-text">
+                    <h1 class="hero-h1">Travel</h1>
+                    <h2 class="hero-h2"> Who Travels?</h2>
+                    <p class="hero-body">It could be you! We're the one stop shop for all time and space travel needs.</p>
+                </span>
+            </div>
+        </section>
+
+        <section>
+            <div class="nav-container">
+                <img src="/assets/img/logos/logo-icon/logo-icon-white.svg" alt="Who Travels Logo" class="logo">
+                <nav class="nav">
                     <ul class="menu">
-                        <li><a href="book.html" class="top-nav" id="book">Book Trip</a></li>
-                        <li><a href="destinations.html" class="top-nav" id="destinations">Destinations</a></li>
-                        <li><a href="about.html" class="top-nav" id="about">About Us</a></li>
-                        <li><a href="contact.html" class="top-nav" id="contact">Contact</a></li>
-                        <li><a href="explore.html" class="top-nav" id="explore">Explore</a></li>
+                        <li class="nav-li"><a href="book.html" class="top-nav" id="book">Book Trip</a></li>
+                        <li class="nav-li"><a href="destinations.html" class="top-nav" id="destinations">Destinations</a></li>
+                        <li class="nav-li"><a href="about.html" class="top-nav" id="about">About Us</a></li>
+                        <li class="nav-li"><a href="contact.html" class="top-nav" id="contact">Contact</a></li>
+                        <li class="nav-li"><a href="explore.html" class="top-nav" id="explore">Explore</a></li>
                     </ul>
-
-                </div>
-            </nav>
+                    <div class="hamburger-icon">
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                    </div>
+                </nav>
+            </div>
         </section>
     </header>
     <section class="hero">
@@ -59,7 +73,7 @@
             <option value="destination2">Destination #2</option>
             <option value="destination3">Destination #3</option>
         </select><br>
-        <label for="form-time">Time Period:</label><br> <!-- Should this be a dropdown?-->
+        <label for="form-time">Time Period:</label><br>
         <input type="text" id="form-time" name="time-period"><br>
         <label for="form-time">Travel Dates:</label><br>
         <input type="date" id="form-dates" name="travel-dates"><br>
@@ -143,6 +157,7 @@
     <footer class="footer">
     </footer>
 
+    <script src="./assets/js/index.js"></script>
 
 </body>
 </html>
