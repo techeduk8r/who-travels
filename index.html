@@ -4,9 +4,144 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,500;0,700;0,900;1,900&family=Roboto&display=swap" rel="stylesheet">
+    <img-text>Who Travels</img-text>
+    <title>Who Travels</title>
 </head>
 <body>
+    <header>
+        <section class="header">
+            <img src="/assets/img/logos/logo icon/who-travels-icon.svg" alt="Who Travels Logo" class="logo">
+            <nav>
+                <div class="mobile-menu">
+                    <input type="checkbox">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+
+                    <ul class="menu">
+                        <li><a href="book.html" class="top-nav" id="book">Book Trip</a></li>
+                        <li><a href="destinations.html" class="top-nav" id="destinations">Destinations</a></li>
+                        <li><a href="about.html" class="top-nav" id="about">About Us</a></li>
+                        <li><a href="contact.html" class="top-nav" id="contact">Contact</a></li>
+                        <li><a href="explore.html" class="top-nav" id="explore">Explore</a></li>
+                    </ul>
+
+                </div>
+            </nav>
+        </section>
+    </header>
+    <section class="hero">
+        <div class="hero-img-box">
+            <img class="hero-img" src="/assets/img/heros/hero-home.jpg" alt="photo of man looking at stars">
+        </div>
+        <div class="hero-content">
+            <span class="hero-text">
+                <h1 class="hero-h1">Travel</h1>
+                <h2 class="hero-h2"> Who Travels?</h2>
+                <p class="hero-body">It could be you! We're the one stop shop for all time and space travel needs.</p>
+            </span>
+        </div>
+    </section>
+
+    <h1>Who Travels?</h1>
+    <p>It could be you! The one stop shop for all time and space travel needs.</p>
+
+    <p>From Pompeii in 79 A.D. to the Sapphire Waterfall of planet Midnight, Who Travels? offers a stunning array of adventures across time and space. See what our guests have to say about their favorite locals. </p>
+    <p>Explore a place in time or space</p>
+    <form>
+        <label for="form-destination">Destination:</label><br>
+        <select class="form-destination" name="home-destination">
+            <option value="destination1">Destination #1</option>
+            <option value="destination2">Destination #2</option>
+            <option value="destination3">Destination #3</option>
+        </select><br>
+        <label for="form-time">Time Period:</label><br> <!-- Should this be a dropdown?-->
+        <input type="text" id="form-time" name="time-period"><br>
+        <label for="form-time">Travel Dates:</label><br>
+        <input type="date" id="form-dates" name="travel-dates"><br>
+    </form>
+    <button class="begin-journey">Begin My Journey
+    </button>
+
+
+    <h2>Check out where others have gone</h2>
+    <img src="/assets/img/others/sapphire-falls.jpg" alt="Sapphire Falls" class="img-home">
+    <p>Read Review</p>
+    <img src="/assets/img/others/cresent-resort.png" alt="Cresent Resort" class="img-home">
+    <p>Read Review</p>
+    <img src="/assets/img/others/pompeii.jpg" alt="Pompeii" class="img-home">
+    <p>Read Review</p>
+
+    <div class="slideshow">
+        <div class="slideshow-heading">
+            <h2>Popular Destinations</h2>
+        </div>
+        <div class="slideshow-container">
+            <div class="slideshow-container-img">
+
+                <div class="myslides fade">
+                    <img src="/assets/img/popular-destinations/old-nyc.jpg" style="width:100%" alt="">
+                    <div class="slideshow-overlay-text">
+                        <p class="title"> Old New York, 1930s</p>
+                        <p class="caption">Glitz, glamour, jazz, and history!</p>
+                    </div>
+                </div>
+
+                <div class="myslides fade">
+                    <img src="/assets/img/popular-destinations/whirlpools.jpg" style="width:100%" alt="">
+                    <div class="slideshow-overlay-text">
+                        <p class="title"> Whirlpools of Malcassairo</p>
+                        <p class="caption">Celestial beauty and relaxation!</p>
+                    </div>
+                </div>
+
+                <div class="myslides fade">
+                    <img src="/assets/img/popular-destinations/leisure-hive.jpg" style="width:100%" alt="">
+                    <div class="slideshow-overlay-text">
+                        <p class="title"> Leisure Hive, Argolis, 2290</p>
+                        <p class="caption">Surf, moons, and zero-gravity-squash!</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="/assets/js/index.js"></script>
+
+    <section class="instagram">
+        <h3>Instagram</h3>
+        <h3>#WhoTravels</h3>
+        <ul>
+            <li><img src="#" alt="" class="insta-post"></li>
+            <li><img src="#" alt="" class="insta-post"></li>
+            <li><img src="#" alt="" class="insta-post"></li>
+            <li><img src="#" alt="" class="insta-post"></li>
+            <li><img src="#" alt="" class="insta-post"></li>
+            <li><img src="#" alt="" class="insta-post"></li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+    </footer>
 
 </body>
 </html>
