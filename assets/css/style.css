@@ -163,10 +163,8 @@ a {
   }
 
   a:hover {
-    font-weight: 600;
-    color: #371a7a;
-    text-decoration: underline;
-  }
+    font-weight: bold;
+   }
   .menu {
     position: relative;
     flex-direction: row;
