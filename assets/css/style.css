@@ -20,7 +20,7 @@ p {
 .logo {
   max-width: 80px;
   padding: 15px;
-  left: 25px;
+  left: 20px;
   top: 0rem;
 }
 
@@ -41,7 +41,7 @@ p {
   display: grid;
   min-width: 350px;
   width: 100%;
-  height: 100%;
+  height: 870px;
   object-fit: cover;
 }
 
@@ -77,14 +77,16 @@ p {
   font-weight: 700;
   color: #ffffff;
   position: relative;
-  padding: 70px 0px 0px 30px;
+  padding: 70px 0px 0px 25px;
 }
 
 .hero-body {
   color: #ffffff;
-  font-family: 'Roboto';
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
   font-size: 1rem;
-  padding-left: 45px;
+  padding-left: 25px;
 }
 
 /*current navigation - in progress */
