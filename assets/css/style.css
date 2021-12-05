@@ -224,7 +224,50 @@ border: none;
 padding: 10px 15px 10px 15px;
 border-radius: 25px;
 }
+/*homepage searchform tablet*/
+@media (min-width: 768px){
+  .entire-form-content{
+  margin-top: -250px;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  padding-bottom: 150px;
+}
 
+.search-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  color: #FFFFFF;
+  padding-left: 45px;
+
+}
+.search-form-item{
+  padding-bottom: 20px;
+}
+.search-form-item input {
+  width: 320px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 5px;
+  height: 25px;
+}
+.form-destination {
+  width: 320px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 5px;
+  height: 25px;
+}
+.search-form-button button {
+font-family: 'Roboto', sans-serif;
+weight: 700;
+background-color: #5904E0;
+color: #FFFFFF;
+border: none;
+padding: 10px 15px 10px 15px;
+border-radius: 25px;
+
+}
 /* Overlay text */
 .slideshow-overlay-text {
   position: absolute;
@@ -389,10 +432,9 @@ border-radius: 25px;
   }
 
   .hero-body {
-    color: #ffffff;
-    font-family: 'Roboto';
     font-size: 1.5em;
-    padding-left: 45px;
+    padding-left: 25px;
+    text-align: left;
   }
 }
 /* Desktop  @media for Hero */
