@@ -87,6 +87,7 @@ p {
   font-weight: 700;
   font-size: 1rem;
   padding-left: 25px;
+  text-align: center;
 }
 
 /*current navigation - in progress */
@@ -177,6 +178,37 @@ a {
   margin: 10px;
 }
 
+/*homepage searchform content*/
+
+.entire-form-content{
+  margin-top: -200px;
+}
+
+.search-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  color: #FFFFFF;
+  padding-left: 45px;
+
+}
+.search-form-item{
+  padding-bottom: 20px;
+}
+.search-form-item input {
+  width: 320px;
+  border-radius: 25px;
+  outline: none;
+  margin-top: 5px;
+  height: 25px;
+}
+.form-destination {
+  width: 320px;
+  border-radius: 25px;
+  outline: none;
+  margin-top: 5px;
+  height: 25px;
+}
 
 /* Overlay text */
 .slideshow-overlay-text {
