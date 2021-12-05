@@ -264,8 +264,7 @@ a {
   }
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+
 
 /* Tablet  @media for Hero */
   @media (min-width: 768px) {
@@ -291,6 +290,7 @@ a {
     font-size: 1.5em;
     padding-left: 45px;
   }
+}
 
 /* Desktop  @media for Hero */
 @media (min-width: 992px) {
@@ -340,11 +340,13 @@ a {
   font-size: 45px;
   font-weight: bold;
   text-align: center;
+  line-height: 5px;
 }
 
 .dest-page-subtitle {
   font-size: 20px;
   text-align: center;
+  line-height: 5px;
 }
 
 .dest-detail-return {
@@ -616,9 +618,7 @@ a {
 @media (min-width: 996px) {
 .dest-details {
   display: grid;
-
   grid-template-columns: repeat(5, 1fr);
-
   gap: 10px;
   margin: 40px;
   justify-content: center;
