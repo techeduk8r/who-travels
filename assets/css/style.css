@@ -15,26 +15,14 @@ h6 {
 p {
   font-size: 16px;
 }
-<<<<<<< HEAD
-h1 {
-  font-size: 45px;
-  font-weight: 700;
-}
-h3 {
-  font-size: 35px;
-  font-weight: 700;
-  line-height: 100%;
-=======
 
 /* logo styles */
-.logo {
-  max-width: 80px;
-  padding: 15px;
-  left: 25px;
-  top: 0rem;
+.logo  {
+ max-width: 80px;
+ padding: 15px;
 }
 
-/* Hero styles */
+  /* Hero styles */
 .hero {
   display: grid;
   grid-template-columns: 1fr;
@@ -88,7 +76,6 @@ h3 {
   color: #ffffff;
   position: relative;
   padding: 70px 0px 0px 30px;
->>>>>>> 07604d8b03194e5ea58f66c7101cf7cbbb2361d5
 }
 
 .hero-body {
@@ -98,69 +85,41 @@ h3 {
   padding-left: 45px;
 }
 
-/*current navigation - in progress */
-
-.nav {
-  display: block;
-}
 
 
-.nav-li {
-  padding: 20px 0px;
-
-  list-style: none;
-}
-
-.menu {
-  display: flex;
-  position: absolute;
-  justify-content: space-between;
-  left: 100%;
-  right: 0;
-  top: 5.2rem;
-  flex-direction: column;
-  background-color: lavender;
-  border-radius: 20px;
-  text-align: center;
-  transition: 0.4s;
-  margin-left: 0px;
-  padding: 0px 150px;
-  opacity: 95%;
-}
-.hamburger-icon,
-.logo {
-  display: block;
-  cursor: pointer;
-  position: absolute;
-}
-
-.hamburger-icon {
-  right: 25px;
-  top: 1rem;
-}
-
-.hamburger {
-  display: block;
-  width: 65px;
-  height: 10px;
-  margin: 0px 0px 12px 20px;
-  background-color: #fff;
-  border-radius: 13px;
-}
-
-.menu.active {
-  left: 0;
-}
+  /*current navigation - in progress */
 .top-nav {
   color: #000000;
-  font-size: 18px;
+  font-size: 20px;
   text-decoration: none;
-  font-family: 'Montserrat Alternates', sans-serif;
 }
+ul,
+li {
+  list-style: none;
+  display: inline;
+  overflow: hidden;
+}
+li {
+  padding: 50px;
+}
+
 a {
   text-decoration: none;
 }
 
+.hamburger {
+  display: block;
+  z-index: 1;
+  width: 38px;
+  height: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #371a7a;
+  border-radius: 4px;
+}
+.img-home {
+  width: 200px; /*PLACEHOLDER*/
+}
 
 
 /*Home Review Section*/
@@ -173,7 +132,6 @@ a {
   grid-column-start: 1;
   grid-column-end: 4;
   text-align: center;
-  margin-bottom: 15px;
 }
 .home-review-piece {
   width: 125px;
@@ -336,50 +294,15 @@ a {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .hamburger-icon {
-    display: none;
-  }
-
   p {
     font-size: 20px;
   }
-
   h1 {
     font-size: 55px;
   }
-
-
-  .nav {
-    display: inline;
-  }
-
-
   a:hover {
-    font-weight: bold;
-   }
-  .menu {
-    position: relative;
-    flex-direction: row;
-    justify-content: space-between;
-    left: auto;
-    right: auto;
-    top: -682px;
-    margin: 0px 40px 0px 25px;
-    transition: none;
-    background-color: #fff;
-    opacity: 100%;
-    border-radius: 63px;
-    padding: 12px 20px 10px 150px;
-  }
-  .logo {
-    max-width: 95px;
-    background-color: #fff;
-    border-radius: 63px;
-    margin: 3px 15px;
-    padding: 2px;
-    z-index: 1;
-    top: 1rem;
-    content: url('/assets/img/logos/logo-icon/who-travels-icon.svg');
+    font-weight: 700;
+    color: #371a7a;
   }
 }
 @media (min-width: 768px) {
@@ -393,14 +316,16 @@ a {
     text-align: left;
     margin-right: 20px;
   }
-
   .stars {
     font-size: 16px;
   }
 }
 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
 /* Tablet  @media for Hero */
-@media (min-width: 768px) {
+  @media (min-width: 768px) {
   .hero-h1 {
     font-size: 9rem;
     letter-spacing: 0.1em;
@@ -423,13 +348,9 @@ a {
     font-size: 1.5em;
     padding-left: 45px;
   }
-}
+
 /* Desktop  @media for Hero */
 @media (min-width: 992px) {
-<<<<<<< HEAD
-  h3 {
-    font-size: 55px;
-=======
   .hero-h1 {
     font-size: 10rem;
     letter-spacing: 0.1em;
@@ -451,10 +372,8 @@ a {
     font-family: 'Roboto';
     font-size: 2em;
     padding-left: 45px;
->>>>>>> 07604d8b03194e5ea58f66c7101cf7cbbb2361d5
   }
 }
-
 
 @media (min-width: 992px) {
   /*Home Review Section content*/
@@ -465,9 +384,6 @@ a {
   .home-review-copy {
     grid-column-start: 1;
     grid-column-end: 4;
-  }
-  .home-review-copy p {
-    margin-top: -25px;
   }
   .home-review-piece {
     width: 175px;
@@ -492,15 +408,3 @@ a {
   }
 }
 
-/* Large device Navigation (desktops, 992px and up)*/
-@media (min-width: 992px) {
-  .top-nav {
-    font-size: 24px;
-  }
-    .logo {
-    max-width: 100px;
-    margin: 4px 15px;
-    padding: 2px
-
-  }
-}
