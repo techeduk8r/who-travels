@@ -147,8 +147,25 @@ a {
 }
 
 #about-page p {
-  margin: 0px 27px 20px 27px;
+  margin: 27px;
 }
+#about-page .hero-img {
+  height: 100%;
+  margin-top: -320px;
+}
+
+#about-page .hero-content {
+  margin-top: -200px;
+}
+.about-grid {
+  margin-top: -310px;
+}
+
+.tardis-interior {
+  border: 2px solid #000000;
+  margin: auto;
+}
+
 /* ---------MEDIA CSS----------
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -216,6 +233,18 @@ a {
     font-family: 'Roboto';
     font-size: 1.5em;
     padding-left: 45px;
+  }
+
+  /*About CSS*/
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: -410px;
+  }
+
+  #about-page .hero-content {
+    margin-top: -250px;
   }
 }
 /* Desktop  @media for Hero */
