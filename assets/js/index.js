@@ -7,6 +7,19 @@ openMenu.addEventListener('click', mobileMenu);
 function mobileMenu() {
   menu.classList.toggle('active');
 }
+
+
+
+
+//slideshow script
+const openMenu = document.querySelector('.hamburger-icon');
+const menu = document.querySelector('.menu');
+
+openMenu.addEventListener('click', mobileMenu);
+
+function mobileMenu() {
+  menu.classList.toggle('active');
+}
 var slideIndex = 0;
 showSlides();
 
