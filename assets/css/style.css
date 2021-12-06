@@ -102,30 +102,32 @@ h1 {
     width: 100%;
   }
   .where-to-past {
-    background-image: none;
+    background-image: url('/assets/img/where-to/past-desktop.jpg');
     background-size: 100%;
+     opacity: 0.5;
   }
   .where-to-past:hover {
-    background-image: url('/assets/img/where-to/past-desktop.jpg');
+    opacity: 1;
   }
   .where-to-future {
-    background-image: none;
+    background-image: url('/assets/img/where-to/future-desktop.jpg');
     background-size: 100%;
+     opacity: 0.5;
   }
   .where-to-future:hover {
-    background-image: url('/assets/img/where-to/future-desktop.jpg');
+    opacity: 1;
   }
   .where-to-world {
-    background-image: none;
+    background-image: url('/assets/img/where-to/space-desktop.jpg');
     background-size: 100%;
     background-position-y: top;
+     opacity: 0.5;
   }
   .where-to-world:hover {
-    background-image: url('/assets/img/where-to/space-desktop.jpg');
+    opacity: 1;
   }
   .where-to-link {
     font-size: 75px;
-    color: #3f1a7a;
     text-shadow: none;
     margin-top: 225px;
   }
@@ -137,7 +139,7 @@ h1 {
     margin-top: 175px;
   }
 }
-=======
+
 /* logo styles */
 .logo  {
  max-width: 80px;
