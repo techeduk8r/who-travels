@@ -250,6 +250,48 @@ font-size: 18px;
 margin-left: 500px;
 margin-top: 20px;
 }
+
+
+/*homepage searchform desktop*/
+@media (min-width: 992px) {
+ .entire-form-content{
+  margin-top: -250px;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  font-size: 20px;
+}
+.hero-body p{
+  grid-column-start: 1;
+  grid-column-end: 3;
+   font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.search-form {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1;
+   height: 65px;
+    padding-left: 0px;
+
+}
+.search-form-item input {
+  width: 260px;
+  height: 30px;
+
+}
+.form-destination {
+  width: 260px;
+  height: 30px;
+}
+.search-form-button button {
+padding: 10px 20px 10px 20px;
+font-size: 20px;
+margin-left: 0px;
+margin-top: 20px;
+}
+}
+
 /* Overlay text */
 .slideshow-overlay-text {
   position: absolute;
