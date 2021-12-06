@@ -86,7 +86,6 @@ p {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 20px;
   font-weight: 700;
-  font-size: 1rem;
   text-align: center;
   text-shadow: 1px 1px 10px black;
 }
@@ -229,12 +228,15 @@ border-radius: 25px;
   .entire-form-content{
   margin-top: -250px;
   grid-template-rows: 1fr 1fr 1fr;
+  margin-right: 40px;
 }
 
 .search-form {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1;
    height: 65px;
+   column-gap: 25px;
+
 
 }
 .search-form-item input {
@@ -247,48 +249,47 @@ border-radius: 25px;
 .search-form-button button {
 padding: 10px 20px 10px 20px;
 font-size: 18px;
-margin-left: 500px;
+margin-left: 525px;
 margin-top: 20px;
 }
-
+}
 
 /*homepage searchform desktop*/
 @media (min-width: 992px) {
+  .hero-body p {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 1px 1px 10px black;
+}
+
  .entire-form-content{
   margin-top: -250px;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  font-size: 20px;
-}
-.hero-body p{
-  grid-column-start: 1;
-  grid-column-end: 3;
-   font-family: 'Montserrat Alternates', sans-serif;
-  font-size: 30px;
-  font-weight: 700;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .search-form {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1;
-   height: 65px;
-    padding-left: 0px;
+   height: 80px;
+   column-gap: 50px;
+   margin-right: 300px;
 
 }
 .search-form-item input {
-  width: 260px;
-  height: 30px;
+  width: 255px;
 
 }
 .form-destination {
-  width: 260px;
-  height: 30px;
+  width: 255px;
 }
 .search-form-button button {
 padding: 10px 20px 10px 20px;
-font-size: 20px;
-margin-left: 0px;
+font-size: 18px;
+margin-left: 500px;
 margin-top: 20px;
+margin-left: 1000px;
+padding-top: -500px;
 }
 }
 
