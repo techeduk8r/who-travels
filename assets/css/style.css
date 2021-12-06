@@ -229,44 +229,26 @@ border-radius: 25px;
   .entire-form-content{
   margin-top: -250px;
   grid-template-rows: 1fr 1fr 1fr;
-  justify-items: center;
-  padding-bottom: 150px;
 }
 
 .search-form {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  color: #FFFFFF;
-  padding-left: 45px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1;
+   height: 65px;
 
-}
-.search-form-item{
-  padding-bottom: 20px;
 }
 .search-form-item input {
-  width: 320px;
-  border-radius: 25px;
-  border: none;
-  margin-top: 5px;
-  height: 25px;
+  width: 200px;
+
 }
 .form-destination {
-  width: 320px;
-  border-radius: 25px;
-  border: none;
-  margin-top: 5px;
-  height: 25px;
+  width: 200px;
 }
 .search-form-button button {
-font-family: 'Roboto', sans-serif;
-weight: 700;
-background-color: #5904E0;
-color: #FFFFFF;
-border: none;
-padding: 10px 15px 10px 15px;
-border-radius: 25px;
-
+padding: 10px 20px 10px 20px;
+font-size: 18px;
+margin-left: 500px;
+margin-top: 20px;
 }
 /* Overlay text */
 .slideshow-overlay-text {
