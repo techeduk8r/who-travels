@@ -273,8 +273,8 @@ p {
 }
 
 
+/*Navigation*/
 
-  /*current navigation - in progress */
 .top-nav {
   color: #000000;
   font-size: 20px;
@@ -285,6 +285,29 @@ li {
   list-style: none;
   display: inline;
   overflow: hidden;
+
+.nav-li {
+  padding: 20px 0px;
+  list-style: none;
+   border: 1.5px solid black;
+  font-weight: bold;
+  background-color: white;
+}
+
+.menu {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  left: 100%;
+  right: 0;
+  top: 5.2rem;
+  flex-direction: column;
+  border-radius: 20px;
+  text-align: center;
+  transition: 0.4s;
+  margin-left: 0px;
+  padding: 0px 50px;
+
 }
 li {
   padding: 50px;
@@ -478,8 +501,7 @@ a {
     margin: 10px;
   }
 }
-
-
+/* ---------MEDIA CSS----------
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   p {
@@ -509,6 +531,11 @@ a {
   }
   .stars {
     font-size: 16px;
+  }
+
+    .nav-li{
+   border: 0;
+   font-weight: 400;
   }
 }
 
@@ -601,4 +628,3 @@ a {
     width: 100px;
   }
 }
-
