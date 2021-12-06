@@ -520,11 +520,10 @@ a {
   margin: 10px;
 }
 
-
 .pop-destinations-heading {
   text-align: center;
   font-size: 35px;
-
+}
 
 /* Overlay text */
 .slideshow-overlay-text {
@@ -546,7 +545,7 @@ a {
   padding-inline: 10px;
   background-color: rgba(23, 3, 58, 0.5);
 }
-  
+
 .caption {
   color: #f2f2f2;
   font-size: 16px;
