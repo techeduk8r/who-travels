@@ -1,6 +1,11 @@
 body {
+<<<<<<< HEAD
+  margin: 0px 0;
+  font-family: 'Roboto';
+=======
   font-family: 'Roboto', sans-serif;
   margin: 0px;
+>>>>>>> main
 }
 
 h1,
@@ -266,7 +271,7 @@ p {
   padding-left: 45px;
 }
 
-/*current navigation - in progress */
+/*NAVIGATION */
 
 .nav {
   display: block;
@@ -326,18 +331,43 @@ p {
 a {
   text-decoration: none;
 }
-
+#about-page p{
+  margin: 27px;
+}
 
 #about-page .hero-content {
   margin-top: -200px;
 }
 .about-grid {
-  margin-top: -310px;
+  margin-top: -320px;
 }
 
+ #about-page .hero-img {
+    margin-top: -320px;
+  }
+
+ .about-hero-text{
+    margin-top: 30px;
+  }
 .tardis-interior {
   border: 2px solid #000000;
   margin: auto;
+}
+
+/*slideshow container styles */
+
+.slideshow {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin: 10px;
+}
+
+.slideshow-heading {
+  align-self: center;
+  justify-self: center;
 }
 
 .slideshow-heading > h2 {
@@ -494,6 +524,29 @@ a {
     top: 1rem;
     content: url('/assets/img/logos/logo-icon/who-travels-icon.svg');
   }
+
+   /*About CSS*/
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: -410px;
+  }
+
+  #about-page .hero-content {
+  margin-top: -200px;
+}
+.about-grid {
+  margin-top: -400px;
+}
+
+ #about-page .hero-img {
+    margin-top: -320px;
+  }
+
+ .about-hero-text{
+    margin-top: -50px;
+  }
 }
 
 /* Tablet  @media for Hero */
@@ -519,18 +572,6 @@ a {
     font-family: 'Roboto';
     font-size: 1.5em;
     padding-left: 45px;
-  }
-
-  /*About CSS*/
-  .about-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin-top: -410px;
-  }
-
-  #about-page .hero-content {
-    margin-top: -250px;
   }
 }
 /* Desktop  @media for Hero */
@@ -569,3 +610,4 @@ a {
     margin: 4px 15px;
     padding: 2px
 }
+
