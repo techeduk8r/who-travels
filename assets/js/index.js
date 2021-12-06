@@ -8,9 +8,6 @@ function mobileMenu() {
   menu.classList.toggle('active');
 }
 
-
-
-
 //slideshow script
 const openMenu = document.querySelector('.hamburger-icon');
 const menu = document.querySelector('.menu');
