@@ -12,6 +12,13 @@ h6 {
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
+h3{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 100%;
+}
+
 .page-title {
   font-size: 45px;
   text-align: center;
@@ -191,6 +198,7 @@ h6 {
     padding-left: 10px;
   }
 }
+
 p {
   font-size: 16px;
 }
@@ -320,14 +328,12 @@ h1 {
 }
 
 /* logo styles */
-.logo {
-  max-width: 80px;
-  padding: 15px;
-  left: 25px;
-  top: 0rem;
+.logo  {
+ max-width: 80px;
+ padding: 15px;
 }
 
-/* Hero styles */
+  /* Hero styles */
 .hero {
   display: grid;
   grid-template-columns: 1fr;
@@ -390,12 +396,20 @@ h1 {
   padding-left: 45px;
 }
 
+
 /*Navigation*/
 
-.nav {
-  display: block;
+.top-nav {
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
 }
-
+ul,
+li {
+  list-style: none;
+  display: inline;
+  overflow: hidden;
+}
 .nav-li {
   padding: 20px 0px;
   list-style: none;
@@ -419,38 +433,68 @@ h1 {
   padding: 0px 50px;
 
 }
-.hamburger-icon,
-.logo {
-  display: block;
-  cursor: pointer;
-  position: absolute;
+li {
+  padding: 50px;
 }
 
-.hamburger-icon {
-  right: 25px;
-  top: 1rem;
+a {
+  text-decoration: none;
 }
 
 .hamburger {
   display: block;
-  width: 65px;
-  height: 10px;
-  margin: 0px 0px 12px 20px;
-  background-color: #fff;
-  border-radius: 13px;
+  z-index: 1;
+  width: 38px;
+  height: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #371a7a;
+  border-radius: 4px;
+}
+.img-home {
+  width: 200px; /*PLACEHOLDER*/
 }
 
-.menu.active {
-  left: 0;
+
+/*Home Review Section*/
+.home-review-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
-.top-nav {
-  color: #000000;
-  font-size: 18px;
-  text-decoration: none;
-  font-family: 'Montserrat Alternates', sans-serif;
+.home-review-copy {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+  margin-bottom: 20px;
 }
-a {
-  text-decoration: none;
+.home-review-piece {
+  width: 125px;
+}
+.review-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.stars {
+  color: #3f1a7a;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.read-review-button {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  background-color: #3f1a7a;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 85px;
+  border-radius: 25px;
+}
+.read-review-button:hover {
+  color: #ffffff;
 }
 
 
@@ -584,44 +628,33 @@ a {
 /* ---------MEDIA CSS----------
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .hamburger-icon {
-    display: none;
-  }
-
   p {
     font-size: 20px;
   }
-
-  .nav {
-    display: inline;
+  h1 {
+    font-size: 55px;
   }
-
   a:hover {
-    font-weight: bold;
-   }
-  .menu {
-    position: relative;
-    flex-direction: row;
-    justify-content: space-between;
-    left: auto;
-    right: auto;
-    top: -682px;
-    margin: 0px 40px 0px 25px;
-    transition: none;
-    background-color: #fff;
-    opacity: 100%;
-    border-radius: 63px;
-    padding: 12px 20px 10px 150px;
+    font-weight: 700;
+    color: #371a7a;
   }
-  .logo {
-    max-width: 95px;
-    background-color: #fff;
-    border-radius: 63px;
-    margin: 3px 15px;
-    padding: 2px;
-    z-index: 1;
-    top: 1rem;
-    content: url('/assets/img/logos/logo-icon/who-travels-icon.svg');
+}
+@media (min-width: 768px) {
+  /*Home Review Section content*/
+  .home-review-section {
+    grid-template-columns: 335px 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .home-review-copy {
+    grid-column-end: 2;
+    text-align: left;
+    margin-right: 20px;
+  }
+  .home-review-copy p {
+    margin-top: -25px;
+  }
+  .stars {
+    font-size: 16px;
   }
 
     .nav-li{
@@ -630,8 +663,14 @@ a {
   }
 }
 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h3{
+    font-size: 55px;
+  }
+
 /* Tablet  @media for Hero */
-@media (min-width: 768px) {
+  @media (min-width: 768px) {
   .hero-h1 {
     font-size: 9rem;
     letter-spacing: 0.1em;
@@ -654,7 +693,7 @@ a {
     font-size: 1.5em;
     padding-left: 45px;
   }
-}
+
 /* Desktop  @media for Hero */
 @media (min-width: 992px) {
   .hero-h1 {
@@ -682,14 +721,38 @@ a {
 }
 
 
+
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-  .top-nav {
-    font-size: 24px;
+  /*Home Review Section content*/
+  .home-review-section {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
-    .logo {
-    max-width: 100px;
-    margin: 4px 15px;
-    padding: 2px
+  .home-review-copy {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .home-review-piece {
+    width: 175px;
+  }
+  .review-img {
+    width: 175px;
+    height: 175px;
+  }
+  .stars {
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  .read-review-button {
+    font-size: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+  }
 }
 

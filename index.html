@@ -8,49 +8,44 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,500;0,700;0,900;1,900&family=Roboto&display=swap" rel="stylesheet">
+    <img-text>Who Travels</img-text>
     <title>Who Travels</title>
 </head>
 <body>
     <header>
+        <section class="header">
+            <img src="/assets/img/logos/logo icon/who-travels-icon.svg" alt="Who Travels Logo" class="logo">
+            <nav>
+                <div class="mobile-menu">
+                    <input type="checkbox">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
 
-
-        <section class="hero">
-            <div class="hero-img-box">
-                <img class="hero-img" src="/assets/img/heros/hero-home.jpg" alt="photo of man looking at stars">
-            </div>
-            <div class="hero-content">
-                <span class="hero-text">
-                    <h1 class="hero-h1">Travel</h1>
-                    <h2 class="hero-h2"> Who Travels?</h2>
-                    <p class="hero-body">It could be you! We're the one stop shop for all time and space travel needs.</p>
-                </span>
-            </div>
-        </section>
-
-        <section>
-            <div class="nav-container">
-                <img src="/assets/img/logos/logo-icon/logo-icon-white.svg" alt="Who Travels Logo" class="logo">
-                <nav class="nav">
                     <ul class="menu">
-                        <li class="nav-li"><a href="book.html" class="top-nav" id="book">Book Trip</a></li>
-                        <li class="nav-li"><a href="destinations.html" class="top-nav" id="destinations">Destinations</a></li>
-                        <li class="nav-li"><a href="about.html" class="top-nav" id="about">About Us</a></li>
-                        <li class="nav-li"><a href="contact.html" class="top-nav" id="contact">Contact</a></li>
-                        <li class="nav-li"><a href="explore.html" class="top-nav" id="explore">Explore</a></li>
+                        <li><a href="book.html" class="top-nav" id="book">Book Trip</a></li>
+                        <li><a href="destinations.html" class="top-nav" id="destinations">Destinations</a></li>
+                        <li><a href="about.html" class="top-nav" id="about">About Us</a></li>
+                        <li><a href="contact.html" class="top-nav" id="contact">Contact</a></li>
+                        <li><a href="explore.html" class="top-nav" id="explore">Explore</a></li>
                     </ul>
-                    <div class="hamburger-icon">
-                        <span class="hamburger"></span>
-                        <span class="hamburger"></span>
-                        <span class="hamburger"></span>
-                    </div>
-                </nav>
-            </div>
+
+                </div>
+            </nav>
         </section>
     </header>
-
-
-    <p>From Pompeii in 79 A.D. to the Sapphire Waterfall of planet Midnight, Who Travels? offers a stunning array of adventures across time and space. See what our guests have to say about their favorite locals. </p>
-    <p>Explore a place in time or space</p>
+    <section class="hero">
+        <div class="hero-img-box">
+            <img class="hero-img" src="/assets/img/heros/hero-home.jpg" alt="photo of man looking at stars">
+        </div>
+        <div class="hero-content">
+            <span class="hero-text">
+                <h1 class="hero-h1">Travel</h1>
+                <h2 class="hero-h2"> Who Travels?</h2>
+                <p class="hero-body">It could be you! We're the one stop shop for all time and space travel needs.</p>
+            </span>
+        </div>
+    </section>
     <form>
         <label for="form-destination">Destination:</label><br>
         <select class="form-destination" name="home-destination">
@@ -58,7 +53,7 @@
             <option value="destination2">Destination #2</option>
             <option value="destination3">Destination #3</option>
         </select><br>
-        <label for="form-time">Time Period:</label><br>
+        <label for="form-time">Time Period:</label><br> <!-- Should this be a dropdown?-->
         <input type="text" id="form-time" name="time-period"><br>
         <label for="form-time">Travel Dates:</label><br>
         <input type="date" id="form-dates" name="travel-dates"><br>
@@ -66,14 +61,28 @@
     <button class="begin-journey">Begin My Journey
     </button>
 
-
-    <h2>Check out where others have gone</h2>
-    <img src="/assets/img/others/sapphire-falls.jpg" alt="Sapphire Falls" class="img-home">
-    <p>Read Review</p>
-    <img src="/assets/img/others/cresent-resort.png" alt="Cresent Resort" class="img-home">
-    <p>Read Review</p>
-    <img src="/assets/img/others/pompeii.jpg" alt="Pompeii" class="img-home">
-    <p>Read Review</p>
+    <div class="home-review-section">
+        <div class="home-review-copy">
+            <h3>Check out where<br> others have gone</h3>
+            <p>From Pompeii in 79 A.D. to the Sapphire Waterfall of planet Midnight, Who Travels? offers a stunning array of adventures across time and space. See what our guests have to say about their favorite locals. </p>
+        </div>
+        <div class="home-review-piece">
+            <img src="/assets/img/others/sapphire-falls.jpg" alt="Sapphire Falls" class="review-img">
+            <!--This is placeholder stars-->
+            <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+            <a href="#" class="read-review-button">Read Review</a>
+        </div>
+        <div class="home-review-piece">
+            <img src="/assets/img/others/cresent-resort.png" alt="Cresent Resort" class="review-img">
+            <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+            <a href="#" class="read-review-button">Read Review</a>
+        </div>
+        <div class="home-review-piece">
+            <img src="/assets/img/others/pompeii.jpg" alt="Pompeii" class="review-img">
+            <p class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+            <a href="#" class="read-review-button">Read Review</a>
+        </div>
+    </div>
 
     <div class="slideshow">
         <div class="slideshow-heading">
@@ -142,7 +151,6 @@
     <footer class="footer">
     </footer>
 
-    <script src="./assets/js/index.js"></script>
 
 </body>
 </html>
