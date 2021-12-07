@@ -446,11 +446,13 @@ h1 {
   align-self: center;
   justify-self: center;
 }
-
-.slideshow-container-img {
+.slideshow-container {
   max-width: 700px;
   position: relative;
   margin: 10px;
+}
+.slideshow-container-img {
+width: 100%;
 }
 
 .pop-destinations-heading {
@@ -461,22 +463,20 @@ h1 {
 /* Overlay text */
 .slideshow-overlay-text {
   position: absolute;
-  bottom: 20px;
+  bottom: 50px;
   width: 100%;
   background-color: rgba(23, 3, 58, 0.5);
 }
 
 /* Caption text */
 .title {
-  color: #f2f2f2;
+   color: #f2f2f2;
   font-size: 25px;
   font-family: 'Montserrat Alternates', sans-serif;
-  position: absolute;
-  bottom: 48px;
-  width: 97%;
   text-align: right;
-  padding-inline: 10px;
-  background-color: rgba(23, 3, 58, 0.5);
+  padding-right: 10px;
+  bottom: 48px;
+  line-height: 1px;
 }
 
 .caption {
