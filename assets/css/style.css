@@ -390,11 +390,37 @@ h1 {
   padding-left: 45px;
 }
 
+/* home-review & popular destination grid styling */
+.other-popular-grid {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0px 0px;
+}
+.others { grid-area: 1 / 1 / 2 / 2; }
+.popular { grid-area: 2 / 1 / 3 / 2; }
+
+/* Desktop */
+@media (min-width: 992px) {
+.other-popular-grid {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+}
+.others { grid-area: 1 / 1 / 2 / 2; }
+.popular { grid-area: 1 / 2 / 2 / 3; }
+}
+
+
 /*Home Review Section*/
 .home-review-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  margin: 20px;
 }
 .home-review-copy {
   grid-column-start: 1;
@@ -552,14 +578,22 @@ width: 100%;
 
 /* Desktop  @media for slideshow */
 @media (min-width: 992px) {
-  .slideshow {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    margin: 10px;
-  }
+.slideshow {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0px 0px;
+}
+.slideshow-heading {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.slideshow-container {
+  grid-area: 2 / 1 / 3 / 2;
+  align-self: start;
+}
+.pop-destinations-heading {
+  text-align: left;
+  font-size: 50px;
+}
 }
 
 @media (min-width: 768px) {
