@@ -7,6 +7,11 @@ openMenu.addEventListener('click', mobileMenu);
 function mobileMenu() {
   menu.classList.toggle('active');
 }
+
+
+
+
+//slideshow script
 var slideIndex = 0;
 showSlides();
 
