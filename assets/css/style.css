@@ -12,7 +12,7 @@ h6 {
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
-h3{
+h3 {
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight: 700;
   font-size: 35px;
@@ -291,7 +291,7 @@ h1 {
   .where-to-past {
     background-image: url('/assets/img/where-to/past-desktop.jpg');
     background-size: 100%;
-     opacity: 0.5;
+    opacity: 0.5;
   }
   .where-to-past:hover {
     opacity: 1;
@@ -299,7 +299,7 @@ h1 {
   .where-to-future {
     background-image: url('/assets/img/where-to/future-desktop.jpg');
     background-size: 100%;
-     opacity: 0.5;
+    opacity: 0.5;
   }
   .where-to-future:hover {
     opacity: 1;
@@ -308,7 +308,7 @@ h1 {
     background-image: url('/assets/img/where-to/space-desktop.jpg');
     background-size: 100%;
     background-position-y: top;
-     opacity: 0.5;
+    opacity: 0.5;
   }
   .where-to-world:hover {
     opacity: 1;
@@ -327,13 +327,7 @@ h1 {
   }
 }
 
-/* logo styles */
-.logo  {
- max-width: 80px;
- padding: 15px;
-}
-
-  /* Hero styles */
+/* Hero styles */
 .hero {
   display: grid;
   grid-template-columns: 1fr;
@@ -396,66 +390,6 @@ h1 {
   padding-left: 45px;
 }
 
-
-/*Navigation*/
-
-.top-nav {
-  color: #000000;
-  font-size: 20px;
-  text-decoration: none;
-}
-ul,
-li {
-  list-style: none;
-  display: inline;
-  overflow: hidden;
-}
-.nav-li {
-  padding: 20px 0px;
-  list-style: none;
-   border: 1.5px solid black;
-  font-weight: bold;
-  background-color: white;
-}
-
-.menu {
-  display: flex;
-  position: absolute;
-  justify-content: space-between;
-  left: 100%;
-  right: 0;
-  top: 5.2rem;
-  flex-direction: column;
-  border-radius: 20px;
-  text-align: center;
-  transition: 0.4s;
-  margin-left: 0px;
-  padding: 0px 50px;
-}
-
-li {
-  padding: 50px;
-}
-
-a {
-  text-decoration: none;
-}
-
-.hamburger {
-  display: block;
-  z-index: 1;
-  width: 38px;
-  height: 5px;
-  margin-bottom: 5px;
-  position: relative;
-  background: #371a7a;
-  border-radius: 4px;
-}
-.img-home {
-  width: 200px; /*PLACEHOLDER*/
-}
-
-
 /*Home Review Section*/
 .home-review-section {
   display: grid;
@@ -496,7 +430,6 @@ a {
 .read-review-button:hover {
   color: #ffffff;
 }
-
 
 /*slideshow container styles */
 
@@ -629,20 +562,6 @@ a {
   }
 }
 
-/* ---------MEDIA CSS----------
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  p {
-    font-size: 20px;
-  }
-  h1 {
-    font-size: 55px;
-  }
-  a:hover {
-    font-weight: 700;
-    color: #371a7a;
-  }
-}
 @media (min-width: 768px) {
   /*Home Review Section content*/
   .home-review-section {
@@ -660,21 +579,16 @@ a {
   .stars {
     font-size: 16px;
   }
-
-    .nav-li{
-   border: 0;
-   font-weight: 400;
-  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  h3{
+  h3 {
     font-size: 55px;
   }
 }
 /* Tablet  @media for Hero */
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
   .hero-h1 {
     font-size: 9rem;
     letter-spacing: 0.1em;
@@ -724,6 +638,7 @@ a {
     padding-left: 45px;
   }
 }
+
 
 /* destination details styling */
 
@@ -1168,7 +1083,6 @@ a {
 }
 }
 
-
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
   /*Home Review Section content*/
@@ -1203,3 +1117,132 @@ a {
   }
 }
 
+/* --- LOGO --- */
+.logo {
+  max-width: 80px;
+  padding: 15px;
+  left: 25px;
+  top: 0rem;
+}
+/*--- NAVIGATION--- */
+
+.nav-menu {
+  display: block;
+}
+
+.nav-li {
+  padding: 20px 0px;
+  list-style: none;
+  border: 1.5px solid black;
+  font-weight: bold;
+  background-color: white;
+}
+
+.menu {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  left: 100%;
+  right: 0;
+  top: 5.2rem;
+  flex-direction: column;
+  border-radius: 20px;
+  text-align: center;
+  transition: 0.4s;
+  margin: 0px 50px;
+  padding: 0px;
+}
+
+.hamburger-icon,
+.logo {
+  display: block;
+  cursor: pointer;
+  position: absolute;
+}
+
+.hamburger-icon {
+  right: 25px;
+  top: 1rem;
+}
+
+.hamburger {
+  display: block;
+  width: 65px;
+  height: 10px;
+  margin: 0px 0px 12px 20px;
+  background-color: #fff;
+  border-radius: 13px;
+}
+
+.menu.active {
+  left: 0;
+}
+.top-nav {
+  color: #000000;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+/* ---------MEDIA CSS----------
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .hamburger-icon {
+    display: none;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .nav-menu {
+    display: inline;
+  }
+
+  a:hover {
+    font-weight: bold;
+  }
+  .menu {
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    left: auto;
+    right: auto;
+    top: -682px;
+    margin: 0px 40px 0px 25px;
+    transition: none;
+    background-color: #fff;
+    opacity: 100%;
+    border-radius: 63px;
+    padding: 12px 20px 10px 150px;
+  }
+  .logo {
+    max-width: 95px;
+    background-color: #fff;
+    border-radius: 63px;
+    margin: 3px 15px;
+    padding: 2px;
+    z-index: 1;
+    top: 1rem;
+    content: url('/assets/img/logos/logo-icon/who-travels-icon.svg');
+  }
+  .nav-li {
+    border: 0;
+    font-weight: 400;
+  }
+}
+
+/* Navigation - Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .top-nav {
+    font-size: 24px;
+  }
+  .logo {
+    max-width: 100px;
+    margin: 4px 15px;
+    padding: 2px;
+  }
+}
