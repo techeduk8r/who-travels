@@ -1471,15 +1471,16 @@ a {
 
 
 .about-grid {
-  margin-top: -300px;
+  margin-top: -310px;
   margin-left: 27px;
 }
 
   #about-page .hero-content {
-  margin-top: -150px;
+  margin-top: -120px;
 }
 
  #about-page .hero-img {
+   height: 100%;
     margin-top: -320px;
 
   }
@@ -1575,7 +1576,7 @@ a:hover{
   }
 
   #about-page .hero-content {
-  margin-top: -200px;
+  margin-top: -250px;
 }
 
 
