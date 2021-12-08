@@ -1358,6 +1358,7 @@ border-radius: 25px;
 .search-form-button button {
 padding: 10px 20px 10px 20px;
 font-size: 18px;
+font-weight: 700;
 margin-left: 525px;
 margin-top: 20px;
 }
@@ -1403,7 +1404,8 @@ margin-left: 90px;
   width: 255px;
 }
 .search-form-button button {
-padding: 10px 20px 10px 20px;
+padding: 10px 10px 10px 10px;
+font-weight: 700;
 font-size: 18px;
 margin-top: 20px;
 width: 200px;
