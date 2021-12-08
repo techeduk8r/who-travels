@@ -1470,7 +1470,7 @@ a {
      /*About CSS*/
 
 
-.about-grid {
+.about-container {
   margin-top: -310px;
   margin-left: 27px;
 }
@@ -1569,7 +1569,7 @@ a:hover{
     font-weight: 400;
   }
      /*About CSS*/
-  .about-grid {
+  .about-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
