@@ -11,6 +11,16 @@ h5,
 h6 {
   font-family: 'Montserrat Alternates', sans-serif;
 }
+p {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-left: 25px;
+}
 
 h3 {
   font-family: 'Montserrat Alternates', sans-serif;
@@ -197,16 +207,6 @@ h3 {
     font-size: 20px;
     padding-left: 10px;
   }
-}
-
-p {
-  font-size: 16px;
-}
-
-h1 {
-  font-size: 45px;
-  font-weight: 700;
-  margin-left: 25px;
 }
 
 /*Where To Content*/
@@ -693,13 +693,18 @@ width: 100%;
   font-size: 45px;
   font-weight: bold;
   text-align: center;
-  line-height: 5px;
+  line-height: 30px;
 }
 
 .dest-page-subtitle {
   font-size: 20px;
   text-align: center;
   line-height: 5px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 400;
+}
+.destination-link{
+color: #3F1A7A;
 }
 
 .dest-detail-return {
@@ -722,16 +727,34 @@ width: 100%;
 
 .dest-detail-description {
   grid-area: 4 / 1 / 5 / 2;
+  margin-top: -15px;
+}
+.dest-detail-description button {
+  background-color: #5904E0;
+  font-family:'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  border: none;
+  height: 40px;
+  width: 240px;
+  border-radius: 25px;
+  margin-left: 75px;
+  margin-top: 20px;
+
 }
 
 .dest-description-title {
   font-size: 25px;
   text-align: center;
+  line-height: 25px;
 }
 
 .dest-description-subtitle {
   font-size: 20px;
   text-align: center;
+  font-weight: 400;
+  line-height: 0px;
 }
 
 .dest-description-content {
@@ -744,8 +767,10 @@ width: 100%;
 }
 
 .dest-detail-stars-title  {
-  font-size: ;
+  font-size: 25px ;
   text-align: center;
+  margin-top: 60px;
+  line-height: 0px;
 }
 
 .dest-detail-stars > .fa-star {
@@ -755,7 +780,7 @@ width: 100%;
 
 .rating-stars {
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .dest-detail-reviews {
@@ -808,6 +833,7 @@ width: 100%;
 
 .dest-detail-review-grid-review {
   grid-area: 1 / 1 / 2 / 2;
+  font-size: 16px;
 }
 
 .dest-detail-review-grid-arrow {
@@ -846,11 +872,20 @@ width: 100%;
   font-size: 55px;
   font-weight: bold;
   text-align: left;
+  margin-left: 0;
 }
 
 .dest-page-subtitle {
   font-size: 25px;
   text-align: left;
+}
+
+.dest-detail-description button {
+  font-size: 20px;
+  height: 50px;
+  width: 295px;
+  border-radius: 25px;
+  margin-left: 190px;
 }
 
 .dest-detail-return {
@@ -877,7 +912,6 @@ width: 100%;
 }
 
 .dest-description-title {
-  font-size: 28px;
   text-align: center;
 }
 
@@ -895,10 +929,13 @@ width: 100%;
   grid-area: 4 / 1 / 5 / 3;
 }
 
-.dest-detail-stars-title  {
-  font-size: 20px;
+.dest-detail-stars-title {
+ font-size: 25px;
   text-align: center;
+  margin-top: 125px;
 }
+
+
 
 .dest-detail-stars > .fa-star {
   font-size: 20px;
@@ -960,6 +997,7 @@ width: 100%;
 
 .dest-detail-review-grid-review {
   grid-area: 1 / 1 / 2 / 2;
+  font-size: 18px;
 }
 
 .dest-detail-review-grid-arrow {
@@ -990,11 +1028,20 @@ width: 100%;
   font-size: 75px;
   font-weight: bold;
   text-align: left;
+  margin-left: 0px;
 }
 
 .dest-page-subtitle {
   font-size: 35px;
   text-align: left;
+  margin-left: 0px;
+}
+.dest-detail-description button {
+  font-size: 20px;
+  height: 50px;
+  width: 295px;
+  border-radius: 25px;
+  margin-left: 95px;
 }
 
 .dest-detail-return {
@@ -1010,6 +1057,8 @@ width: 100%;
 
 .dest-detail-img {
   grid-area: 2 / 1 / 3 / 3;
+  margin-top: 50px;
+  margin-bottom: 0px;
 }
 
 .dest-detail-img > img {
@@ -1022,18 +1071,21 @@ width: 100%;
 
 .dest-description-title {
   font-size: 28px;
-  text-align: center;
+  text-align: left;
   font-weight: bold;
+  margin-left: 95px;
+  margin-top: 75px;
 }
 
 .dest-description-subtitle {
   font-size: 24px;
-  text-align: center;
+  text-align: left;
+  margin-left: 95px;
 }
 
 .dest-description-content {
   font-size: 20px;
-  padding-left: 20px;
+  margin-left: 95px;
 }
 
 /* review grid */
@@ -1045,6 +1097,7 @@ width: 100%;
   font-size: 18;
   text-align: center;
   padding-top: 20px;
+  margin-top:75px;
 }
 
 .dest-detail-stars > .fa-star {
@@ -1059,7 +1112,7 @@ width: 100%;
 
 .dest-detail-reviews {
   grid-area: 3 / 2 / 4 / 6;
-  padding-top: 20px;
+  padding-top: 60px;
 }
 .dest-detail-reviews-subgrid {
   display: grid;
