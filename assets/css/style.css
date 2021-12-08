@@ -624,6 +624,24 @@ a {
   font-size: 16px;
 }
 
+.button{
+  text-align: center;
+}
+
+.destination-button {
+  width: 300px;
+  height: 60px;
+  border: 0px solid;
+  border-radius: 30px;
+  box-sizing: border-box;
+  background-color: #5904E0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+
+}
+
 /* review grid */
 .dest-detail-stars {
   grid-area: 5 / 1 / 6 / 2;
@@ -775,6 +793,23 @@ a {
 .dest-description-content {
   font-size: 20px;
 }
+.button{
+  text-align: center;
+}
+
+.destination-button {
+  width: 325px;
+  height: 60px;
+  border: 0px solid;
+  border-radius: 30px;
+  box-sizing: border-box;
+  background-color: #5904E0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+
+}
 
 /* review grid */
 .dest-detail-stars {
@@ -920,6 +955,24 @@ a {
 .dest-description-content {
   font-size: 20px;
   padding-left: 20px;
+}
+
+.button{
+  text-align: center;
+}
+
+.destination-button {
+  width: 350px;
+  height: 60px;
+  border: 0px solid;
+  border-radius: 30px;
+  box-sizing: border-box;
+  background-color: #5904E0;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+
 }
 
 /* review grid */
