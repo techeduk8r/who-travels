@@ -1151,75 +1151,6 @@ width: 100%;
   }
 }
 
-/* --- LOGO --- */
-.logo {
-  max-width: 80px;
-  padding: 15px;
-  left: 25px;
-  top: 0rem;
-}
-/*--- NAVIGATION--- */
-
-.nav-menu {
-  display: block;
-}
-
-.nav-li {
-  padding: 20px 0px;
-  list-style: none;
-  border: 1.5px solid black;
-  font-weight: bold;
-  background-color: white;
-}
-
-.menu {
-  display: flex;
-  position: absolute;
-  justify-content: space-between;
-  left: 100%;
-  right: 0;
-  top: 5.2rem;
-  flex-direction: column;
-  border-radius: 20px;
-  text-align: center;
-  transition: 0.4s;
-  margin: 0px 50px;
-  padding: 0px;
-}
-
-.hamburger-icon,
-.logo {
-  display: block;
-  cursor: pointer;
-  position: absolute;
-}
-
-.hamburger-icon {
-  right: 25px;
-  top: 1rem;
-}
-
-.hamburger {
-  display: block;
-  width: 65px;
-  height: 10px;
-  margin: 0px 0px 12px 20px;
-  background-color: #fff;
-  border-radius: 13px;
-}
-
-.menu.active {
-  left: 0;
-}
-.top-nav {
-  color: #000000;
-  font-size: 18px;
-  text-decoration: none;
-  font-family: 'Montserrat Alternates', sans-serif;
-}
-a {
-  text-decoration: none;
-}
 
 /* BOOKING STYLES */
 .booking {
@@ -1352,6 +1283,77 @@ input[type=submit]  {
 }
 }
 
+
+
+/* --- LOGO --- */
+.logo {
+  max-width: 80px;
+  padding: 15px;
+  left: 25px;
+  top: 0rem;
+}
+/*--- NAVIGATION--- */
+
+.nav-menu {
+  display: block;
+}
+
+.nav-li {
+  padding: 20px 0px;
+  list-style: none;
+  border: 1.5px solid black;
+  font-weight: bold;
+  background-color: white;
+}
+
+.menu {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  left: 100%;
+  right: 0;
+  top: 5.2rem;
+  flex-direction: column;
+  border-radius: 20px;
+  text-align: center;
+  transition: 0.4s;
+  margin: 0px 50px;
+  padding: 0px;
+}
+
+.hamburger-icon,
+.logo {
+  display: block;
+  cursor: pointer;
+  position: absolute;
+}
+
+.hamburger-icon {
+  right: 25px;
+  top: 1rem;
+}
+
+.hamburger {
+  display: block;
+  width: 65px;
+  height: 10px;
+  margin: 0px 0px 12px 20px;
+  background-color: #fff;
+  border-radius: 13px;
+}
+
+.menu.active {
+  left: 0;
+}
+.top-nav {
+  color: #000000;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+a {
+  text-decoration: none;
+}
 
 /* ---------MEDIA CSS----------
 /* Medium devices (tablets, 768px and up) */
