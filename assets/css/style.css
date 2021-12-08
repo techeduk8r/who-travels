@@ -693,13 +693,18 @@ width: 100%;
   font-size: 45px;
   font-weight: bold;
   text-align: center;
-  line-height: 5px;
+  line-height: 30px;
 }
 
 .dest-page-subtitle {
   font-size: 20px;
   text-align: center;
   line-height: 5px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 400;
+}
+.destination-link{
+color: #3F1A7A;
 }
 
 .dest-detail-return {
