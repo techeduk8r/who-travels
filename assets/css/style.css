@@ -1151,6 +1151,140 @@ width: 100%;
   }
 }
 
+
+/* BOOKING STYLES */
+.booking {
+  place-content: center;
+  margin: 20px;
+}
+
+.booking-form {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  gap: 10px 10px;
+}
+
+.first-name { grid-area: 1 / 1 / 2 / 2; }
+.last-name { grid-area: 1 / 2 / 2 / 3; }
+.phone { grid-area: 2 / 1 / 3 / 3; }
+.email { grid-area: 3 / 1 / 4 / 3; }
+.time-period { grid-area: 5 / 1 / 6 / 3; }
+.book-destination { grid-area: 4 / 1 / 5 / 3; }
+.travelers {
+  grid-area: 6 / 1 / 7 / 2;
+  align-self: start;
+}
+.money {
+  grid-area: 6 / 2 / 7 / 3;
+align-self: start;
+}
+.accomodations { grid-area: 7 / 1 / 8 / 3; }
+.button {
+  grid-area: 8 / 2 / 9 / 3;
+  justify-self: right;
+}
+
+.page-title {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form-text  {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 15px;
+  border: 0px solid;
+  border-radius: 30px;
+  box-sizing: border-box;
+  background-color: #ededed;
+  resize: vertical;
+}
+
+input[type=checkbox] {
+  height: 25px;
+  width: 25px;
+  border: 0px solid;
+  background-color: #ededed;
+  padding: 20px;
+}
+
+
+
+input[type=submit]  {
+  width: 140px;
+  height: 50px;
+  padding: 10px;
+  border: 0px solid;
+  border-radius: 30px;
+  box-sizing: border-box;
+  background-color: #5904E0;
+  resize: vertical;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* tablet styles for booking */
+@media (min-width: 768px) {
+  .page-title {
+  font-size: 55px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+}
+
+
+/* desktop styles for booking */
+
+@media (min-width: 996px) {
+  .booking-form {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 0px 20px;
+}
+.first-name { grid-area: 1 / 1 / 2 / 3; }
+.book-destination { grid-area: 1 / 3 / 2 / 5; }
+.last-name { grid-area: 2 / 1 / 3 / 3; }
+.time-period { grid-area: 2 / 3 / 3 / 5; }
+.phone { grid-area: 3 / 1 / 4 / 3; }
+.email { grid-area: 4 / 1 / 5 / 3; }
+.travelers { grid-area: 3 / 3 / 4 / 4; }
+.money { grid-area: 3 / 4 / 4 / 5; }
+.accomodations { grid-area: 4 / 3 / 5 / 5; }
+.button { grid-area: 5 / 1 / 6 / 5; }
+
+.page-title {
+  font-size: 75px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+}
+
+
+
 /* --- LOGO --- */
 .logo {
   max-width: 80px;
