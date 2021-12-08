@@ -1507,15 +1507,16 @@ a {
   width:350px;
   display:block;
   margin:auto;
-
+  padding: 20px 0px;
 }
 
-.tardis-interior{
-  border: 2px solid #000000;
-}
 .about-button a {
   color:#FFF;
 
+}
+
+.about-text {
+  margin-top: 20px;
 }
 
 a:hover{
