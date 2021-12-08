@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,500;0,700;0,900;1,900&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/js/index.js">
+    <title>Book a Trip</title>
+</head>
+
+<body>
+
+
+    <section class="booking">
+        <h1 class="page-title">Booking</h1>
+
+        <form class="booking-form" action="#" method="POST" enctype="multipart/form-data">
+
+            <div class="first-name">
+                <label for="first-name">First Name:</label>
+                <input type="text" name="first-name" id="first-name">
+            </div>
+            <div class="last-name">
+                <label for="last-name">Last Name:</label>
+                <input type="text" name="last-name" id="last-name">
+            </div>
+            <div class="phone">
+                <label for="phone">Phone:</label>
+                <input type="text" name="phone" id="phone">
+            </div>
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div class="book-destination">
+                <label for="book-destination">Destination you would like to visit:</label>
+                <input type="text" name="book-destination" id="book-destination">
+            </div>
+            <div class="time-period">
+                <label for="time-period">Time period you would like to visit:</label>
+                <input type="text" name="time-period" id="time-period">
+            </div>
+            <div class="travelers">
+                <label for="travelers"># of Travelers:</label>
+                <input type="text" name="travelers" id="travelers">
+            </div>
+            <div class="money">
+                <label for="money">Amount of $ to convert:</label>
+                <input type="text" name="money" id="money">
+            </div>
+            <div class="accomodations">
+                <p class="form-text">Would you like accomodations outside of the TARDIS?</p>
+                <label for="accomodations-yes">Yes</label>
+                <input type="checkbox" name="accomodations-yes" id="accomodations-yes">
+                <label for="accomodations-no">No</label>
+                <input type="checkbox" name="accomodations-no" id="accomodations-no">
+
+            </div>
+            <div class="button">
+                <input type="submit">
+            </div>
+        </form>
+    </section>
+
+</body>
+</html>

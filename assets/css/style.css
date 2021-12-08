@@ -11,6 +11,16 @@ h5,
 h6 {
   font-family: 'Montserrat Alternates', sans-serif;
 }
+p {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-left: 25px;
+}
 
 h3 {
   font-family: 'Montserrat Alternates', sans-serif;
@@ -199,16 +209,6 @@ h3 {
   }
 }
 
-p {
-  font-size: 16px;
-}
-
-h1 {
-  font-size: 45px;
-  font-weight: 700;
-  margin-left: 25px;
-}
-
 /*Where To Content*/
 
 .where-to-title {
@@ -344,7 +344,7 @@ h1 {
   display: grid;
   min-width: 350px;
   width: 100%;
-  height: 100%;
+  height: 870px;
   object-fit: cover;
 }
 
@@ -362,6 +362,7 @@ h1 {
   align-items: center;
   margin-left: 15px;
   margin-right: 15px;
+  margin-top: -150px;
 }
 
 .hero-text {
@@ -369,7 +370,7 @@ h1 {
 
 .hero-h1 {
   font-size: 6rem;
-  letter-spacing: 0.1em;
+  letter-spacing: 0px;
   font-weight: 900;
   color: rgba(255, 255, 255, 0.3);
   position: absolute;
@@ -380,15 +381,18 @@ h1 {
   font-weight: 700;
   color: #ffffff;
   position: relative;
-  padding: 70px 0px 0px 30px;
+  padding: 75px 0px 0px 25px;
 }
 
 .hero-body {
   color: #ffffff;
-  font-family: 'Roboto';
-  font-size: 1rem;
-  padding-left: 45px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 1px 1px 10px black;
 }
+
 
 /* home-review & popular destination grid styling */
 .other-popular-grid {
@@ -641,7 +645,7 @@ width: 100%;
 
   .hero-body {
     color: #ffffff;
-    font-family: 'Roboto';
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: 1.5em;
     padding-left: 45px;
   }
@@ -667,9 +671,11 @@ width: 100%;
 
   .hero-body {
     color: #ffffff;
-    font-family: 'Roboto';
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
     font-size: 2em;
     padding-left: 45px;
+    text-align: left;
   }
 }
 
@@ -693,13 +699,18 @@ width: 100%;
   font-size: 45px;
   font-weight: bold;
   text-align: center;
-  line-height: 5px;
+  line-height: 30px;
 }
 
 .dest-page-subtitle {
   font-size: 20px;
   text-align: center;
   line-height: 5px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 400;
+}
+.destination-link{
+color: #3F1A7A;
 }
 
 .dest-detail-return {
@@ -722,20 +733,56 @@ width: 100%;
 
 .dest-detail-description {
   grid-area: 4 / 1 / 5 / 2;
+  margin-top: -15px;
+}
+.dest-detail-description button {
+  background-color: ##3f1a7a;
+  font-family:'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  border: none;
+  height: 40px;
+  width: 240px;
+  border-radius: 25px;
+  margin-left: 75px;
+  margin-top: 20px;
+
 }
 
 .dest-description-title {
   font-size: 25px;
   text-align: center;
+  line-height: 25px;
 }
 
 .dest-description-subtitle {
   font-size: 20px;
   text-align: center;
+  font-weight: 400;
+  line-height: 0px;
 }
 
 .dest-description-content {
   font-size: 16px;
+}
+
+.button{
+  text-align: center;
+}
+
+.destination-button {
+  width: 300px;
+  height: 60px;
+  border: 0px solid;
+  border-radius: 30px;
+  box-sizing: border-box;
+  background-color: #3f1a7a;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+
 }
 
 /* review grid */
@@ -744,8 +791,10 @@ width: 100%;
 }
 
 .dest-detail-stars-title  {
-  font-size: ;
+  font-size: 25px ;
   text-align: center;
+  margin-top: 60px;
+  line-height: 0px;
 }
 
 .dest-detail-stars > .fa-star {
@@ -755,7 +804,7 @@ width: 100%;
 
 .rating-stars {
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .dest-detail-reviews {
@@ -808,6 +857,7 @@ width: 100%;
 
 .dest-detail-review-grid-review {
   grid-area: 1 / 1 / 2 / 2;
+  font-size: 16px;
 }
 
 .dest-detail-review-grid-arrow {
@@ -846,11 +896,20 @@ width: 100%;
   font-size: 55px;
   font-weight: bold;
   text-align: left;
+  margin-left: 0;
 }
 
 .dest-page-subtitle {
   font-size: 25px;
   text-align: left;
+}
+
+.dest-detail-description button {
+  font-size: 20px;
+  height: 50px;
+  width: 295px;
+  border-radius: 25px;
+  margin-left: 190px;
 }
 
 .dest-detail-return {
@@ -877,7 +936,6 @@ width: 100%;
 }
 
 .dest-description-title {
-  font-size: 28px;
   text-align: center;
 }
 
@@ -889,16 +947,36 @@ width: 100%;
 .dest-description-content {
   font-size: 20px;
 }
+.button{
+  text-align: center;
+}
+
+.destination-button {
+  width: 325px;
+  height: 60px;
+  border: 0px solid;
+  border-radius: 30px;
+  box-sizing: border-box;
+  background-color: #3f1a7a;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+
+}
 
 /* review grid */
 .dest-detail-stars {
   grid-area: 4 / 1 / 5 / 3;
 }
 
-.dest-detail-stars-title  {
-  font-size: 20px;
+.dest-detail-stars-title {
+ font-size: 25px;
   text-align: center;
+  margin-top: 125px;
 }
+
+
 
 .dest-detail-stars > .fa-star {
   font-size: 20px;
@@ -960,6 +1038,7 @@ width: 100%;
 
 .dest-detail-review-grid-review {
   grid-area: 1 / 1 / 2 / 2;
+  font-size: 18px;
 }
 
 .dest-detail-review-grid-arrow {
@@ -990,11 +1069,20 @@ width: 100%;
   font-size: 75px;
   font-weight: bold;
   text-align: left;
+  margin-left: 0px;
 }
 
 .dest-page-subtitle {
   font-size: 35px;
   text-align: left;
+  margin-left: 0px;
+}
+.dest-detail-description button {
+  font-size: 20px;
+  height: 50px;
+  width: 295px;
+  border-radius: 25px;
+  margin-left: 95px;
 }
 
 .dest-detail-return {
@@ -1010,6 +1098,8 @@ width: 100%;
 
 .dest-detail-img {
   grid-area: 2 / 1 / 3 / 3;
+  margin-top: 50px;
+  margin-bottom: 0px;
 }
 
 .dest-detail-img > img {
@@ -1022,18 +1112,39 @@ width: 100%;
 
 .dest-description-title {
   font-size: 28px;
-  text-align: center;
+  text-align: left;
   font-weight: bold;
+  margin-left: 95px;
+  margin-top: 75px;
 }
 
 .dest-description-subtitle {
   font-size: 24px;
-  text-align: center;
+  text-align: left;
+  margin-left: 95px;
 }
 
 .dest-description-content {
   font-size: 20px;
-  padding-left: 20px;
+  margin-left: 95px;
+}
+
+.button{
+  text-align: center;
+}
+
+.destination-button {
+  width: 350px;
+  height: 60px;
+  border: 0px solid;
+  border-radius: 30px;
+  box-sizing: border-box;
+  background-color: #3f1a7a;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+
 }
 
 /* review grid */
@@ -1045,6 +1156,7 @@ width: 100%;
   font-size: 18;
   text-align: center;
   padding-top: 20px;
+  margin-top:75px;
 }
 
 .dest-detail-stars > .fa-star {
@@ -1059,7 +1171,7 @@ width: 100%;
 
 .dest-detail-reviews {
   grid-area: 3 / 2 / 4 / 6;
-  padding-top: 20px;
+  padding-top: 60px;
 }
 .dest-detail-reviews-subgrid {
   display: grid;
@@ -1150,6 +1262,140 @@ width: 100%;
     width: 100px;
   }
 }
+
+
+/* BOOKING STYLES */
+.booking {
+  place-content: center;
+  margin: 20px;
+}
+
+.booking-form {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  gap: 10px 10px;
+}
+
+.first-name { grid-area: 1 / 1 / 2 / 2; }
+.last-name { grid-area: 1 / 2 / 2 / 3; }
+.phone { grid-area: 2 / 1 / 3 / 3; }
+.email { grid-area: 3 / 1 / 4 / 3; }
+.time-period { grid-area: 5 / 1 / 6 / 3; }
+.book-destination { grid-area: 4 / 1 / 5 / 3; }
+.travelers {
+  grid-area: 6 / 1 / 7 / 2;
+  align-self: start;
+}
+.money {
+  grid-area: 6 / 2 / 7 / 3;
+align-self: start;
+}
+.accomodations { grid-area: 7 / 1 / 8 / 3; }
+.button {
+  grid-area: 8 / 2 / 9 / 3;
+  justify-self: right;
+}
+
+.page-title {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form-text  {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 15px;
+  border: 0px solid;
+  border-radius: 30px;
+  box-sizing: border-box;
+  background-color: #ededed;
+  resize: vertical;
+}
+
+input[type=checkbox] {
+  height: 25px;
+  width: 25px;
+  border: 0px solid;
+  background-color: #ededed;
+  padding: 20px;
+}
+
+
+
+input[type=submit]  {
+  width: 140px;
+  height: 50px;
+  padding: 10px;
+  border: 0px solid;
+  border-radius: 30px;
+  box-sizing: border-box;
+  background-color: #5904E0;
+  resize: vertical;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* tablet styles for booking */
+@media (min-width: 768px) {
+  .page-title {
+  font-size: 55px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+}
+
+
+/* desktop styles for booking */
+
+@media (min-width: 996px) {
+  .booking-form {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 0px 20px;
+}
+.first-name { grid-area: 1 / 1 / 2 / 3; }
+.book-destination { grid-area: 1 / 3 / 2 / 5; }
+.last-name { grid-area: 2 / 1 / 3 / 3; }
+.time-period { grid-area: 2 / 3 / 3 / 5; }
+.phone { grid-area: 3 / 1 / 4 / 3; }
+.email { grid-area: 4 / 1 / 5 / 3; }
+.travelers { grid-area: 3 / 3 / 4 / 4; }
+.money { grid-area: 3 / 4 / 4 / 5; }
+.accomodations { grid-area: 4 / 3 / 5 / 5; }
+.button { grid-area: 5 / 1 / 6 / 5; }
+
+.page-title {
+  font-size: 75px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+}
+
+
 
 /* --- LOGO --- */
 .logo {
@@ -1354,3 +1600,131 @@ a:hover{
     padding: 2px;
   }
 }
+
+/*homepage searchform content*/
+
+.entire-form-content{
+  margin-top: -200px;
+  display:grid;
+  grid-template-columns: 1;
+  grid-template-rows: 1fr 4fr 1fr;
+  justify-items: center;
+  padding-bottom: 150px;
+}
+
+.search-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  color: #FFFFFF;
+  padding-left: 45px;
+
+}
+.search-form-item{
+  padding-bottom: 20px;
+}
+.search-form-item input {
+  width: 320px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 5px;
+  height: 25px;
+}
+.form-destination {
+  width: 320px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 5px;
+  height: 25px;
+}
+.search-form-button button {
+font-family: 'Roboto', sans-serif;
+weight: 700;
+background-color: #5904E0;
+color: #FFFFFF;
+border: none;
+padding: 10px 15px 10px 15px;
+border-radius: 25px;
+}
+/*homepage searchform tablet*/
+@media (min-width: 768px){
+  .entire-form-content{
+  margin-top: -250px;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-right: 40px;
+}
+
+.search-form {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1;
+   height: 65px;
+   column-gap: 25px;
+
+
+}
+.search-form-item input {
+  width: 200px;
+
+}
+.form-destination {
+  width: 200px;
+}
+.search-form-button button {
+padding: 10px 20px 10px 20px;
+font-size: 18px;
+font-weight: 700;
+margin-left: 525px;
+margin-top: 20px;
+}
+}
+
+/*homepage searchform desktop*/
+
+@media (min-width: 992px) {
+ .entire-form-content{
+  margin-top: -150px;
+  display: grid;
+grid-template-columns: 3fr 1fr;
+gap: 10px 10px;
+}
+
+  .hero-body p {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 1px 1px 10px black;
+}
+
+.form-title {
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.search-form {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 0px 0px;
+grid-area: 2 / 1 / 3 / 2;
+column-gap: 70px;
+margin-left: 90px;
+}
+
+.search-form-item input {
+  height: 30px;
+  width: 255px;
+
+}
+.form-destination {
+  height: 30px;
+  width: 255px;
+}
+.search-form-button button {
+padding: 10px 10px 10px 10px;
+font-weight: 700;
+font-size: 18px;
+margin-top: 20px;
+width: 200px;
+margin-left: -50px;
+
+}
+}
+
