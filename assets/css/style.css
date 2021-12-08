@@ -1654,3 +1654,169 @@ margin-left: -50px;
 }
 }
 
+/*About CSS*/
+
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 20px;
+}
+
+  #about-page .hero-content {
+  margin-top: -150px;
+}
+
+ #about-page .hero-img {
+    margin-top: -320px;
+
+  }
+
+ .about-hero-text{
+    margin-top: -50px;
+  }
+
+  .about-title  {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.about-locations-title  {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+  .about-button {
+  background-color: #5904E0;
+  border: none;
+  color: #000000;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 100px;
+  margin:auto;
+}
+
+.about-button a {
+  color:#FFF;
+}
+
+/* about slideshow container styles */
+
+.about-slideshow {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: center;
+  margin: 10px;
+}
+
+.about-slideshow-heading {
+  /* align-self: center;
+  justify-self: center; */
+}
+.about-slideshow-container {
+  max-width: 300px;
+  position: relative;
+  margin: 10px;
+  justify-self: center;
+}
+
+.about-slideshow-container-img {
+width: 100%;
+}
+
+.about-slide-heading {
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Overlay text */
+/* .about-slideshow-overlay-text {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  background-color: rgba(23, 3, 58, 0.5);
+} */
+
+/* Caption text */
+.about-img-title {
+  color: #000000;
+  font-size: 25px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  /* padding-right: 10px; */
+  bottom: 48px;
+  line-height: 1px;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Tablet  @media for slideshow */
+@media (min-width: 768px) {
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 20px;
+}
+}
+
+/* Desktop  @media for slideshow */
+@media (min-width: 992px) {
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 20px;
+}
+
+}
+
+
