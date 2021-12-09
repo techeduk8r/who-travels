@@ -1468,9 +1468,14 @@ a {
 }
 
 .instagram-grid {
-  display: grid;
- grid-template-columns: repeat(3, 1fr);
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+}
 
+.insta-img {
+  margin: auto;
+  width: 200px;
+  cursor: pointer;
 
 }
 
