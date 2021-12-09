@@ -438,7 +438,9 @@ margin-top: 0px;
 .home-review-copy {
   text-align: left;
 }
-
+.home-review-copy h3 {
+  text-align: center;
+}
 .home-review-piece {
   width: 175px;
   margin-top: 50px;
@@ -1667,11 +1669,12 @@ border-radius: 25px;
   grid-template-rows: 1;
    height: 65px;
    column-gap: 25px;
+   padding:20px;
 
 
 }
 .search-form-item input {
-  width: 200px;
+  width: 225px;
 
 }
 .form-destination {
@@ -1681,8 +1684,12 @@ border-radius: 25px;
 padding: 10px 20px 10px 20px;
 font-size: 18px;
 font-weight: 700;
-margin-left: 525px;
+margin-left: 500px;
 margin-top: 20px;
+}
+.hero-body p {
+  padding-top: 35px;
+  font-size: 22px;
 }
 }
 
