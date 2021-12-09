@@ -429,40 +429,40 @@ margin-top: 0px;
 /*Home Review Section*/
 .home-review-section {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   margin: 20px;
+  justify-items: center;
+
 }
 .home-review-copy {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  text-align: center;
-  margin-bottom: 20px;
+  text-align: left;
 }
+
 .home-review-piece {
-  width: 125px;
+  width: 175px;
+  margin-top: 50px;
 }
 .review-img {
-  width: 100px;
-  height: 100px;
+  width: 175px;
+  height: 175px;
   object-fit: cover;
 }
 .stars {
   color: #3f1a7a;
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 25px;
+  text-align: center;
+  width: 175px;
+  font-size: 20px;
 }
 .read-review-button {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
   background-color: #3f1a7a;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  width: 85px;
+  padding: 15px 35px 15px 35px;
   border-radius: 25px;
 }
 .read-review-button:hover {
@@ -1250,10 +1250,6 @@ color: #3F1A7A;
   }
   .home-review-piece {
     width: 175px;
-  }
-  .review-img {
-    width: 175px;
-    height: 175px;
   }
   .stars {
     font-size: 20px;
