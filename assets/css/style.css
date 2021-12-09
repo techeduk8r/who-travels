@@ -1299,6 +1299,7 @@ color: #3F1A7A;
 .money {
   grid-area: 6 / 2 / 7 / 3;
 align-self: start;
+margin-top: -20px;
 }
 .accomodations { grid-area: 7 / 1 / 8 / 3; }
 .button {
