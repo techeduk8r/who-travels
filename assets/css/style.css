@@ -12,7 +12,7 @@ h6 {
   font-family: 'Montserrat Alternates', sans-serif;
 }
 p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 150%;
 }
 
@@ -1614,7 +1614,7 @@ a:hover{
 /*homepage searchform content*/
 
 .entire-form-content{
-  margin-top: -200px;
+  margin-top: -250px;
   display:grid;
   grid-template-columns: 1;
   grid-template-rows: 1;
@@ -1627,8 +1627,6 @@ a:hover{
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   color: #FFFFFF;
-  padding-left: 45px;
-
 }
 .search-form-item{
   padding-bottom: 20px;
@@ -1638,7 +1636,7 @@ a:hover{
   border-radius: 25px;
   border: none;
   margin-top: 5px;
-  height: 25px;
+  height: 50px;
 }
 .form-destination {
   width: 320px;
@@ -1649,12 +1647,16 @@ a:hover{
 }
 .search-form-button button {
 font-family: 'Roboto', sans-serif;
-weight: 700;
+font-weight: 700;
+font-size: 18px;
 background-color: #5904E0;
 color: #FFFFFF;
 border: none;
 padding: 10px 15px 10px 15px;
 border-radius: 25px;
+}
+ .hero-body p {
+  font-size: 20px;
 }
 /*homepage searchform tablet*/
 @media (min-width: 768px){
