@@ -1820,6 +1820,11 @@ width: 100%;
   grid-template-rows: 1fr;
     margin-top: -410px;
 }
+ #about-page .hero-img {
+   height: 100%;
+    margin-top: -300px;
+
+  }
 }
 
 
