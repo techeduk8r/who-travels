@@ -1493,11 +1493,14 @@ a {
 .insta-grid {
  display: grid;
  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
+grid-template-rows: repeat(4, 1fr);
+
 }
 
 .insta-text {
  padding-top: 20px;
+ grid-area: 1 / 1 / 2 / 3; ;
+
 }
 
 .insta-hashtag{
@@ -1640,7 +1643,16 @@ a:hover{
   padding-bottom: 50px;
 }
 .insta-grid {
-  grid-template-columns: repeat(3, 1fr);
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(2, 1fr);
+
+}
+
+.insta-text {
+ padding-top: 20px;
+ grid-area: 1 / 1 / 3 / 2; ;
+
 }
 
 .insta-img {
@@ -1668,9 +1680,14 @@ a:hover{
   margin-left: 40px;
 }
 .insta-grid {
-  grid-template-columns:repeat(6, auto);
+grid-template-columns: repeat(6, 1fr);
+grid-template-rows: repeat(2, 1fr);
 justify-content:space-between;
 padding: 0px 15px;
+}
+
+.insta-text {
+ grid-area: 1 / 1 / 2 / 7;
 }
 }
 
