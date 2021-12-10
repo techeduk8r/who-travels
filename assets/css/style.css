@@ -1723,6 +1723,11 @@ margin-left: -50px;
   margin-top: 20px;
 }
 
+.shoutout{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 22px;
+}
+
 a:hover{
   font-weight: bold;
 }
@@ -1818,13 +1823,19 @@ width: 100%;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr;
-    margin-top: -410px;
+    margin-top: -400px;
 }
+
+/*Hero tablet img*/
  .hero-subpage .hero-img {
    height: 100%;
     margin-top: -300px;
 
   }
+
+  .shoutout{
+  font-size: 26px;
+}
 }
 
 
