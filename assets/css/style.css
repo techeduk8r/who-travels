@@ -1467,15 +1467,35 @@ a {
   text-decoration: none;
 }
 
-.instagram-grid {
+/* Instagram */
+
+.instagram {
+  background-color: #18033A;
+  color:#FFF;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.insta-grid {
  display: grid;
  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.insta-text {
+ padding-top: 20px;
+}
+
+.insta-hashtag{
+  font-weight: lighter;
+  margin-top: -20px;
+
 }
 
 .insta-img {
   margin: auto;
-  width: 200px;
+  width: 170px;
   cursor: pointer;
+  padding-left:5px;
 
 }
 
@@ -1600,7 +1620,17 @@ a:hover{
  .about-hero-text{
     margin-top: -50px;
   }
+/* Instagram */
+.instagram {
+  padding-bottom: 50px;
+}
+.insta-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
 
+.insta-img {
+  width: 180px;
+}
 }
 
 /* Navigation - Large devices (desktops, 992px and up)*/
@@ -1613,7 +1643,21 @@ a:hover{
     margin: 4px 15px;
     padding: 2px;
   }
+
+  /* Instagram */
+.instagram {
+  text-align: left;
 }
+
+.instagram h3 {
+  margin-left: 40px;
+}
+.insta-grid {
+  grid-template-columns:repeat(6, auto);
+justify-content:space-between;
+padding: 0px 15px;
+}
+
 
 /*homepage searchform content*/
 
