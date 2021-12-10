@@ -12,7 +12,7 @@ h6 {
   font-family: 'Montserrat Alternates', sans-serif;
 }
 p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 150%;
 }
 
@@ -400,7 +400,7 @@ h3 {
   grid-auto-rows: 1fr;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 1fr);
-  gap: 0px 0px;
+  gap: 0px;
   margin-top: -100px;
 }
 .others { grid-area: 1 / 1 / 2 / 2; }
@@ -409,6 +409,7 @@ h3 {
 @media (min-width: 768px) {
   .other-popular-grid {
 margin-top: 0px;
+gap: 100px 100px;
 }
 }
 /* Desktop */
@@ -429,40 +430,42 @@ margin-top: 0px;
 /*Home Review Section*/
 .home-review-section {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   margin: 20px;
+  justify-items: center;
+
 }
 .home-review-copy {
-  grid-column-start: 1;
-  grid-column-end: 4;
+  text-align: left;
+}
+.home-review-copy h3 {
   text-align: center;
-  margin-bottom: 20px;
 }
 .home-review-piece {
-  width: 125px;
+  width: 175px;
+  margin-top: 50px;
 }
 .review-img {
-  width: 100px;
-  height: 100px;
+  width: 175px;
+  height: 175px;
   object-fit: cover;
 }
 .stars {
   color: #3f1a7a;
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 25px;
+  text-align: center;
+  width: 175px;
+  font-size: 20px;
 }
 .read-review-button {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
   background-color: #3f1a7a;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  width: 85px;
+  padding: 15px 35px 15px 35px;
   border-radius: 25px;
 }
 .read-review-button:hover {
@@ -611,19 +614,24 @@ width: 100%;
 @media (min-width: 768px) {
   /*Home Review Section content*/
   .home-review-section {
-    grid-template-columns: 335px 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
   .home-review-copy {
     grid-column-end: 2;
     text-align: left;
     margin-right: 20px;
+    grid-column-start: 1;
+    grid-column-end: 4;
   }
   .home-review-copy p {
     margin-top: -25px;
   }
-  .stars {
-    font-size: 16px;
+  .home-review-piece {
+    margin-bottom: -200px;
+  }
+  h3 {
+    font-size: 40px;
   }
 }
 
@@ -1251,10 +1259,6 @@ color: #3F1A7A;
   .home-review-piece {
     width: 175px;
   }
-  .review-img {
-    width: 175px;
-    height: 175px;
-  }
   .stars {
     font-size: 20px;
     letter-spacing: 5px;
@@ -1269,6 +1273,9 @@ color: #3F1A7A;
     padding-bottom: 10px;
     width: 100px;
   }
+  .home-review-copy h3 {
+  text-align: left;
+}
 }
 
 
@@ -1614,7 +1621,7 @@ a:hover{
 /*homepage searchform content*/
 
 .entire-form-content{
-  margin-top: -200px;
+  margin-top: -250px;
   display:grid;
   grid-template-columns: 1;
   grid-template-rows: 1;
@@ -1627,8 +1634,6 @@ a:hover{
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   color: #FFFFFF;
-  padding-left: 45px;
-
 }
 .search-form-item{
   padding-bottom: 20px;
@@ -1638,7 +1643,7 @@ a:hover{
   border-radius: 25px;
   border: none;
   margin-top: 5px;
-  height: 25px;
+  height: 50px;
 }
 .form-destination {
   width: 320px;
@@ -1649,12 +1654,16 @@ a:hover{
 }
 .search-form-button button {
 font-family: 'Roboto', sans-serif;
-weight: 700;
+font-weight: 700;
+font-size: 18px;
 background-color: #5904E0;
 color: #FFFFFF;
 border: none;
 padding: 10px 15px 10px 15px;
 border-radius: 25px;
+}
+ .hero-body p {
+  font-size: 20px;
 }
 /*homepage searchform tablet*/
 @media (min-width: 768px){
@@ -1662,6 +1671,7 @@ border-radius: 25px;
   margin-top: -250px;
   grid-template-rows: 1fr 1fr 1fr;
   margin-right: 40px;
+  padding-bottom: 0px;
 }
 
 .search-form {
@@ -1669,11 +1679,12 @@ border-radius: 25px;
   grid-template-rows: 1;
    height: 65px;
    column-gap: 25px;
+   padding:20px;
 
 
 }
 .search-form-item input {
-  width: 200px;
+  width: 225px;
 
 }
 .form-destination {
@@ -1683,8 +1694,12 @@ border-radius: 25px;
 padding: 10px 20px 10px 20px;
 font-size: 18px;
 font-weight: 700;
-margin-left: 525px;
+margin-left: 500px;
 margin-top: 20px;
+}
+.hero-body p {
+  padding-top: 35px;
+  font-size: 22px;
 }
 }
 
@@ -1696,6 +1711,7 @@ margin-top: 20px;
   display: grid;
 grid-template-columns: 1;
 gap: 10px 10px;
+padding-bottom: 150px;
 }
 
   .hero-body p {
@@ -1703,6 +1719,7 @@ gap: 10px 10px;
   font-size: 30px;
   text-align: center;
   text-shadow: 1px 1px 10px black;
+  padding-top: 0px;
 }
 
 .form-title {
@@ -1712,14 +1729,12 @@ gap: 10px 10px;
 .search-form {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
-gap: 0px 0px;
-column-gap: 70px;
+column-gap: 50px;
 }
 
 .search-form-item input {
-  height: 30px;
+  height: 40px;
   width: 255px;
-
 }
 .form-destination {
   height: 30px;
@@ -1727,9 +1742,10 @@ column-gap: 70px;
 }
 .search-form-button button {
 padding: 10px 10px 10px 10px;
+height: 45px;
 font-weight: 700;
 font-size: 18px;
-margin-top: 20px;
+margin-top: 45px;
 width: 200px;
 margin-left: -50px;
 
