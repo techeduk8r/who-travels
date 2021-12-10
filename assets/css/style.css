@@ -1724,8 +1724,8 @@ margin-left: -50px;
 }
 
 .shoutout{
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-size: 22px;
+  font-weight: bold;
+
 }
 
 a:hover{
@@ -1833,9 +1833,6 @@ width: 100%;
 
   }
 
-  .shoutout{
-  font-size: 26px;
-}
 }
 
 
