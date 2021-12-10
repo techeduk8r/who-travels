@@ -1671,11 +1671,11 @@ margin-left: -50px;
 
 }
 
-  .about-page .hero-content {
+  .hero-subpage .hero-content {
   margin-top: -150px;
 }
 
- .about-page .hero-img {
+ .hero-subpage .hero-img {
    height: 100%;
     margin-top: -320px;
 
@@ -1820,7 +1820,7 @@ width: 100%;
   grid-template-rows: 1fr;
     margin-top: -410px;
 }
- .about-page .hero-img {
+ .hero-subpage .hero-img {
    height: 100%;
     margin-top: -300px;
 
