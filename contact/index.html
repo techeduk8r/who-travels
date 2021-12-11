@@ -61,15 +61,22 @@
 
         <div class="reach-out">
             <form action="contact.php">
-                <!--<div class="contact-form"> -->
-                <input name="name" placeholder="Your Name" class="contact-form"><br><br>
-                <!--  </div> -->
-                <!--<div class="contact-form"> -->
-                <input name="email" placeholder="Your Email"><br><br>
-                <!--  </div> -->
-                <!--<div class="contact-form"> -->
-                <textarea name="message" placeholder="Your Message"></textarea><br><br>
-                <!--  </div> -->
+
+                <div class="form-icons">
+                    <i class="fa fa-user icon"></i>
+                    <input class="contact-field" type="text" placeholder="Your Name">
+                </div>
+
+                <div class="form-icons">
+                    <i class="fa fa-envelope icon"></i>
+                    <input class="contact-field" type="text" placeholder="Your Email">
+                </div>
+                <div class="form-icons">
+                    <i class="fa fa-commenting"></i>
+                    <div class="contact-form-msg">
+                        <textarea name="message" placeholder="Your Message"></textarea><br><br>
+                    </div>
+                </div>
                 <input type="submit" value="Send">
             </form>
         </div>
