@@ -1523,61 +1523,6 @@ grid-template-rows: repeat(4, 1fr);
 
 }
 
-     /*About CSS*/
-
-
-.about-container {
-  margin-top: -310px;
-  margin-left: 27px;
-}
-
-  #about-page .hero-content {
-  margin-top: -120px;
-}
-
- #about-page .hero-img {
-   height: 100%;
-    margin-top: -320px;
-
-  }
-
- .about-hero-text{
-    margin-top: -50px;
-  }
-  .about-button {
-  background-color: #5904E0;
-  border: none;
-  color: #000000;
-  padding: 20px 40px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 100px;
-  margin:auto;
-}
-
-.tardis-interior {
-  text-align:center;
-  width:350px;
-  display:block;
-  margin:auto;
-  padding: 20px 0px;
-}
-
-.about-button a {
-  color:#FFF;
-
-}
-
-.about-text {
-  margin-top: 20px;
-}
-
-a:hover{
-  font-weight: bold;
-}
 /* ---------MEDIA CSS----------
 /* Medium devices Nav, About (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -1624,27 +1569,8 @@ a:hover{
     border: 0;
     font-weight: 400;
   }
-     /*About CSS*/
-  .about-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin-top: -410px;
-  }
 
-  #about-page .hero-content {
-  margin-top: -250px;
-}
-
-
- #about-page .hero-img {
-    margin-top: -320px;
-  }
-
- .about-hero-text{
-    margin-top: -50px;
-  }
-/* Instagram */
+ /* Instagram */
 .instagram {
   padding-bottom: 50px;
 
