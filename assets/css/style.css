@@ -1350,8 +1350,6 @@ input[type=checkbox] {
   padding: 20px;
 }
 
-
-
 input[type=submit]  {
   width: 140px;
   height: 50px;
@@ -1482,7 +1480,7 @@ a {
   text-decoration: none;
 }
 
-/* Medium devices Nav, About (tablets, 768px and up) */
+/* Medium devices --NAV-- (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hamburger-icon {
     display: none;
@@ -1527,8 +1525,6 @@ a {
     border: 0;
     font-weight: 400;
   }
-
-
 }
 
 /* Navigation - Large devices (desktops, 992px and up)*/
@@ -1541,7 +1537,7 @@ a {
     margin: 4px 15px;
     padding: 2px;
   }
-}
+}   /* End Nav*/
 
 /*homepage searchform content*/
 
@@ -1679,12 +1675,10 @@ margin-left: -50px;
 
 /*About CSS*/
 
-
-.about-grid {
+.about-grid, .contact {
   display: grid;
   grid-template-columns: 1fr;
   margin: -310px 27px 0px 27px;
-
 }
 
   .hero-subpage .hero-content {
@@ -1694,7 +1688,6 @@ margin-left: -50px;
  .hero-subpage .hero-img {
    height: 100%;
     margin-top: -320px;
-
   }
 
  .about-hero-text{
@@ -1735,7 +1728,7 @@ margin-left: -50px;
   color:#FFF;
 
 }
-.about-text {
+.about-text, {
   margin-top: 20px;
 }
 
@@ -1751,6 +1744,18 @@ a:hover{
   margin: 30px 0px;
 }
 
+/* Contact */
+
+.contact {
+
+}
+.contact-text {
+
+}
+
+.contact-form {
+
+}
 /* about slideshow container styles */
 
 .about-slideshow {
