@@ -2000,17 +2000,5 @@ width: 100%;
  }
 }
 
-/* Desktop  @media for slideshow */
-@media (min-width: 992px) {
-
-.about-grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr;
-  margin: 20px;
-}
-
-}
-
 
 
