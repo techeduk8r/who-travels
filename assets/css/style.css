@@ -1675,7 +1675,7 @@ margin-left: -50px;
 
 /*About CSS*/
 
-.about-grid, .contact {
+.about-grid {
   display: grid;
   grid-template-columns: 1fr;
   margin: -310px 27px 0px 27px;
@@ -1747,15 +1747,23 @@ a:hover{
 /* Contact */
 
 .contact {
-
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: -310px 27px -20px 27px;
 }
+
 .contact-text {
 
 }
 
-.contact-form {
+/*.contact-form {
+  font-size: 18px;
+  border: 2px solid #3F1A7A;
 
-}
+  margin: 5px;
+  background-color: #FFF;
+} */
+
 /* about slideshow container styles */
 
 .about-slideshow {
