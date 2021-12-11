@@ -1838,14 +1838,15 @@ margin-left: -50px;
 .about-grid {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 20px;
+  margin: -310px 27px 0px 27px;
 }
 
-  #about-page .hero-content {
+  .hero-subpage .hero-content {
   margin-top: -150px;
 }
 
- #about-page .hero-img {
+ .hero-subpage .hero-img {
+   height: 100%;
     margin-top: -320px;
 
   }
@@ -1859,9 +1860,14 @@ margin-left: -50px;
   font-weight: bold;
 }
 
-.about-locations-title  {
+.about-locations-main  {
   font-size: 35px;
   font-weight: bold;
+}
+.about-locations-other {
+  font-size: 28px;
+  line-height: 2.5rem;
+  font-weight: 400;
 }
 
   .about-button {
@@ -1881,6 +1887,21 @@ margin-left: -50px;
 .about-button a {
   color:#FFF;
 }
+.about-text {
+  margin-top: 20px;
+}
+
+.shoutout{
+  font-weight: bold;
+
+}
+
+a:hover{
+  font-weight: bold;
+}
+.reach-out {
+  margin: 30px 0px;
+}
 
 /* about slideshow container styles */
 
@@ -1891,10 +1912,6 @@ margin-left: -50px;
   margin: 10px;
 }
 
-.about-slideshow-heading {
-  /* align-self: center;
-  justify-self: center; */
-}
 .about-slideshow-container {
   max-width: 300px;
   position: relative;
@@ -1911,14 +1928,6 @@ width: 100%;
   font-size: 35px;
 }
 
-/* Overlay text */
-/* .about-slideshow-overlay-text {
-  position: absolute;
-  bottom: 50px;
-  width: 100%;
-  background-color: rgba(23, 3, 58, 0.5);
-} */
-
 /* Caption text */
 .about-img-title {
   color: #000000;
@@ -1926,7 +1935,6 @@ width: 100%;
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight: bold;
   text-align: center;
-  /* padding-right: 10px; */
   bottom: 48px;
   line-height: 1px;
 }
@@ -1981,8 +1989,15 @@ width: 100%;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr;
-  margin: 20px;
+  margin-top: -400px;
 }
+}
+/*Hero tablet img*/
+@media (min-width: 768px){
+ .hero-subpage .hero-img {
+   height: 100%;
+    margin-top: -300px;
+ }
 }
 
 /* Desktop  @media for slideshow */
@@ -1996,5 +2011,6 @@ width: 100%;
 }
 
 }
+
 
 
