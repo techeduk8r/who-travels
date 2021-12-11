@@ -1502,21 +1502,6 @@ a {
   margin-left: 27px;
 }
 
-  .cropped-hero-image .hero-content{
-  margin-top: -120px;
-}
-.cropped-hero-image .hero-img{
-   height: 100%;
-    margin-top: -320px;
-  }
-#about-page .hero-content{
-  margin-top: -120px;
-}
-#about-page .hero-img{
-   height: 100%;
-    margin-top: -320px;
-  }
-
  .about-hero-text{
     margin-top: -50px;
   }
