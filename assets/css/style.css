@@ -395,6 +395,20 @@ h3 {
   text-shadow: 1px 1px 10px black;
 }
 
+/*footer content*/
+.footer-content{
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+  background-color: #000000;
+  text-align: center;
+  align-items: center;
+}
+.footer-content a {
+  color: white
+}
+
 
 /* home-review & popular destination grid styling */
 .other-popular-grid {
