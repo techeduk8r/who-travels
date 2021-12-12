@@ -9,12 +9,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,500;0,700;0,900;1,900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/js/index.js">
+    <link rel="stylesheet" href="/assets/js/nav.js">
     <title>Book a Trip</title>
 </head>
 
 <body>
-    <!-- Header -->
     <header>
+        <!-- Header -->
+        <section>
+            <div class="nav-container">
+                <a href="/index.html"><img src="/assets/img/logos/logo-icon/logo-icon-white.svg" alt="Who Travels Logo" class="logo"></a>
+                <nav class="nav-menu">
+                    <ul class="menu">
+                        <li class="nav-li"><a href="/book/" class="top-nav active" id="book">Book Trip</a></li>
+                        <li class="nav-li"><a href="/destinations/" class="top-nav" id="destinations">Destinations</a></li>
+                        <li class="nav-li"><a href="/about/" class="top-nav" id="about">About Us</a></li>
+                        <li class="nav-li"><a href="/contact/" class="top-nav" id="contact">Contact</a></li>
+
+                    </ul>
+                    <div class="hamburger-icon">
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                    </div>
+                </nav>
+            </div>
+        </section>
         <div class="hero-subpage">
             <section class="hero">
                 <div class="hero-img-box">
@@ -29,8 +49,8 @@
                 </div>
             </section>
         </div>
-
     </header>
+    <!-- End Header -->
 
     <section class="booking">
 
@@ -81,6 +101,7 @@
             </div>
         </form>
     </section>
+    <script src="/assets/js/nav.js"></script>
     <footer>
         <div class="footer-content">
             <div>
@@ -91,5 +112,6 @@
             </div>
         </div>
     </footer>
+
 </body>
 </html>
