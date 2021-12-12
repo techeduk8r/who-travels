@@ -1901,4 +1901,17 @@ width: 100%;
 
 }
 
+.attribution-list {
+  padding: 80px;
+  font-size: 20px;
+}
 
+.attribution-list-title  {
+font-size: 20px;
+font-weight: bold;
+}
+
+.attribution-list > li {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
