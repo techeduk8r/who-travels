@@ -1701,6 +1701,7 @@ margin: -20px 0px 50px 0px;
 }
 .search-form-item{
   padding-bottom: 20px;
+  font-family: ;
 }
 .search-form-item input {
   width: 320px;
@@ -1708,6 +1709,10 @@ margin: -20px 0px 50px 0px;
   border: none;
   margin-top: 5px;
   height: 50px;
+}
+#form-dates{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 .form-destination {
   width: 320px;
