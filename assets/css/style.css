@@ -335,6 +335,10 @@ h3 {
   grid-template-rows: 700px;
   align-content: center;
   justify-content: center;
+  /* -------- NEW -------- */
+  z-index: 1;
+  position: relative;
+  /* --------END NEW -------- */
 }
 
 .hero-img-box {
@@ -689,8 +693,12 @@ background-color: #717171;
     font-size: 1.5em;
     padding-left: 45px;
   }
-}
+  /* --------NEW -------- */
+  .hero-img {
+    height: 810px;
 
+}
+}
 /* Desktop  @media for Hero */
 @media (min-width: 992px) {
   .hero-h1 {
@@ -1460,23 +1468,32 @@ input[type=submit]  {
 
 /* --- LOGO --- */
 .logo {
+  position: absolute;
   max-width: 80px;
   padding: 15px;
   left: 25px;
   top: 0rem;
+  z-index: 4;
 }
 /*--- NAVIGATION--- */
 
+.hero-subpage {
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-container {
+  width: 100%;
+  position: absolute;
+}
 .nav-menu {
   display: block;
 }
-
 .nav-li {
   padding: 20px 0px;
   list-style: none;
   border: 1.5px solid black;
-  font-weight: bold;
-  background-color: white;
+   background-color: FFF;
 }
 
 .menu {
@@ -1487,23 +1504,25 @@ input[type=submit]  {
   right: 0;
   top: 5.2rem;
   flex-direction: column;
-  border-radius: 20px;
-  text-align: center;
+   text-align: center;
   transition: 0.4s;
   margin: 0px 50px;
   padding: 0px;
+   z-index: 2;
 }
 
 .hamburger-icon,
 .logo {
   display: block;
   cursor: pointer;
-  position: absolute;
+
 }
 
 .hamburger-icon {
   right: 25px;
   top: 1rem;
+  z-index: 4;
+   position: absolute;
 }
 
 .hamburger {
@@ -1527,7 +1546,10 @@ input[type=submit]  {
 a {
   text-decoration: none;
 }
-
+nav .active {
+  font-weight: bold;
+  background-color: #fff;
+}
 /* Instagram */
 
 .instagram {
@@ -1545,7 +1567,7 @@ grid-template-rows: repeat(4, 1fr);
 
 .insta-text {
  padding-top: 20px;
- grid-area: 1 / 1 / 2 / 3; ;
+ grid-area: 1 / 1 / 2 / 3;
 
 }
 .insta-name {
@@ -1580,31 +1602,29 @@ grid-template-rows: repeat(4, 1fr);
     display: inline;
   }
 
-  a:hover {
+  /*a:hover {
     font-weight: bold;
+  } */
+
+  .menu,
+  .logo {
+    top: 2rem;
+    background-color: #fff;
+    border-radius: 63px;
   }
   .menu {
-    position: relative;
     flex-direction: row;
-    justify-content: space-between;
-    left: auto;
-    right: auto;
-    top: -682px;
+    left: 0;
+    right: 0;
     margin: 0px 40px 0px 25px;
     transition: none;
-    background-color: #fff;
     opacity: 100%;
-    border-radius: 63px;
-    padding: 12px 20px 10px 150px;
+    padding: 12px 100px 12px 150px;
   }
   .logo {
     max-width: 95px;
-    background-color: #fff;
-    border-radius: 63px;
-    margin: 3px 15px;
+    margin: 2px 15px;
     padding: 2px;
-    z-index: 1;
-    top: 1rem;
     content: url('/assets/img/logos/logo-icon/who-travels-icon.svg');
   }
   .nav-li {
@@ -1691,6 +1711,10 @@ margin: -20px 0px 50px 0px;
   grid-template-rows: 1;
   justify-items: center;
   padding-bottom: 150px;
+  /*------- NEW ------- */
+  position: relative ;
+  z-index: 5;
+  /*------- END NEW ------- */
 }
 
 .search-form {
@@ -1816,8 +1840,7 @@ margin-left: -50px;
 }
 }
 
-/*About CSS*/
-
+/* ---- About CSS ---- */
 
 .about-grid {
   display: grid;
@@ -1872,6 +1895,10 @@ margin-left: -50px;
 .about-button a {
   color:#FFF;
 }
+
+ .about-button a:hover {
+    font-weight: bold;
+  }
 .about-text {
   margin-top: 20px;
 }
@@ -1882,9 +1909,6 @@ margin-left: -50px;
 
 }
 
-a:hover{
-  font-weight: bold;
-}
 .reach-out {
   margin: 30px 0px;
 }
@@ -1975,7 +1999,6 @@ a:hover{
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr;
-  margin-top: -400px;
 }
 .about-button{
   margin-left:27px;
