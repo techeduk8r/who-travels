@@ -1991,9 +1991,28 @@ a:hover{
 /*contact page CSS*/
 .contact-grid {
 display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   margin: -310px 27px 100px 27px;
 }
+.contact-form label {
+  line-height: 50px;
+}
+.contact-form input {
+  margin-bottom: 50px;
+}
+.contact-question input {
+  height: 200px;
+}
 
+
+/*contact for desktop*/
+@media (min-width: 992px) {
+.contact-grid {
+display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: -310px 27px 100px 27px;
+  grid-gap: 50px;
+}
+}
 
 
