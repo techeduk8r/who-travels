@@ -1876,7 +1876,8 @@ margin-left: -50px;
 }
 
 .shoutout{
-  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 
 }
 
@@ -1984,6 +1985,14 @@ a:hover{
   background-color: #717171;
   }
 
+}
+
+
+/*contact page CSS*/
+.contact-grid {
+display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: -310px 27px 100px 27px;
 }
 
 
