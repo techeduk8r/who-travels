@@ -1776,7 +1776,8 @@ margin-top: 20px;
 
 @media (min-width: 992px) {
  .entire-form-content{
-  margin-top: -150px;
+  margin-top: -200px;
+  margin-bottom: 50px;
   display: grid;
 grid-template-columns: 1;
 gap: 10px 10px;
