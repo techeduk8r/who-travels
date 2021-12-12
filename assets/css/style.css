@@ -1869,6 +1869,7 @@ margin-left: -50px;
   text-decoration: none;
   display: block;
   font-size: 16px;
+  font-weight: 700;
   cursor: pointer;
   border-radius: 100px;
   margin:auto;
@@ -1980,6 +1981,10 @@ a:hover{
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr;
   margin-top: -400px;
+}
+.about-button{
+  margin-left:27px;
+  font-size: 18px;
 }
 }
 /*Hero tablet img*/
