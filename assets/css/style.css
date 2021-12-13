@@ -224,19 +224,25 @@ h3 {
   height: 415px;
   width: 100%;
 }
-.where-to-past {
-  background-image: url('/assets/img/where-to/past-414.jpg');
+.where-to-card {
+  background: #CCC;
   background-repeat: no-repeat;
 }
+
+.where-to-past {
+  background-image: url('/assets/img/where-to/past-414.jpg');
+}
+
 .where-to-future {
   background-image: url('/assets/img/where-to/future-414.jpg');
-  background-repeat: no-repeat;
+
 }
 .where-to-world {
   background-image: url('/assets/img/where-to/space-414.jpg');
   background-position-y: center;
-  background-repeat: no-repeat;
+
 }
+
 .where-to-link {
   font-family: 'Montserrat Alternates', sans-serif;
   color: #ffffff;
@@ -260,18 +266,21 @@ h3 {
   .where-to {
     height: 768px;
   }
+  .where-to-card {
+
+    background-size: 120%;
+  }
   .where-to-past {
     background-image: url('/assets/img/where-to/past-768.jpg');
-    background-size: 120%;
   }
   .where-to-future {
     background-image: url('/assets/img/where-to/future-768.jpg');
-    background-size: 120%;
+
   }
   .where-to-world {
     background-image: url('/assets/img/where-to/space-768.jpg');
     background-position-x: center;
-    background-size: 120%;
+
   }
   .where-to-link {
     font-size: 55px;
@@ -291,40 +300,41 @@ h3 {
     height: 1000px;
     width: 100%;
   }
+
+  .where-to-card {
+background-size: 100%;
+    opacity: 0.5;
+  }
+  .where-to-card:hover {
+    opacity: 1;
+  }
+  .where-to-card:hover .where-to-link {
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #000000;
+  }
   .where-to-past {
     background-image: url('/assets/img/where-to/past-desktop.jpg');
-    background-size: 100%;
-    opacity: 0.5;
+
   }
-  .where-to-past:hover {
-    opacity: 1;
-  }
+
   .where-to-future {
     background-image: url('/assets/img/where-to/future-desktop.jpg');
-    background-size: 100%;
-    opacity: 0.5;
+
   }
-  .where-to-future:hover {
-    opacity: 1;
-  }
+
   .where-to-world {
     background-image: url('/assets/img/where-to/space-desktop.jpg');
-    background-size: 100%;
+
     background-position-y: top;
-    opacity: 0.5;
+
   }
-  .where-to-world:hover {
-    opacity: 1;
-  }
+
   .where-to-link {
     font-size: 75px;
     text-shadow: none;
     margin-top: 225px;
   }
-  .where-to-link:hover {
-    color: #ffffff;
-    text-shadow: 1px 1px 10px #000000;
-  }
+
   .where-to-world .where-to-link {
     margin-top: 175px;
   }
