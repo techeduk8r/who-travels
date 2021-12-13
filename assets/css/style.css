@@ -266,6 +266,11 @@ h3 {
 @media (min-width: 768px) {
   /*Where To page tablet content*/
 
+  .where-to-grid{
+  margin-top: -250px;
+
+}
+
   .where-to-title {
     margin-bottom: 55px;
   }
@@ -297,6 +302,7 @@ h3 {
     grid-template-rows: 1fr 1fr;
     height: 1000px;
     width: 100%;
+    padding-bottom: 0px;
   }
 
   .where-to-card {
