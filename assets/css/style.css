@@ -230,17 +230,16 @@ h3 {
 }
 
 .where-to-past {
-  background-image: url('/assets/img/where-to/past-414.jpg');
+  background-image: url('/assets/img/where-to/past-768.jpg');
 }
 
 .where-to-future {
-  background-image: url('/assets/img/where-to/future-414.jpg');
+   background-image: url('/assets/img/where-to/future-768.jpg');;
 
 }
 .where-to-world {
-  background-image: url('/assets/img/where-to/space-414.jpg');
-  background-position-y: center;
-
+  background-image: url('/assets/img/where-to/space-768.jpg');
+  background-position-y: bottom;
 }
 
 .where-to-link {
@@ -270,18 +269,10 @@ h3 {
 
     background-size: 120%;
   }
-  .where-to-past {
-    background-image: url('/assets/img/where-to/past-768.jpg');
-  }
-  .where-to-future {
-    background-image: url('/assets/img/where-to/future-768.jpg');
-
-  }
   .where-to-world {
-    background-image: url('/assets/img/where-to/space-768.jpg');
-    background-position-x: center;
+  background-position-y: center;
+}
 
-  }
   .where-to-link {
     font-size: 55px;
     text-shadow: 1px 1px 8px #000000;
