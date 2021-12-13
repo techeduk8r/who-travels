@@ -1876,7 +1876,7 @@ margin-left: -50px;
 
 /* ---- About CSS & Hero Subpages ---- */
 
-.about-grid {
+.about-contact-grid {
   display: grid;
   grid-template-columns: 1fr;
   /*SUBPAGE HERO EDITS*/
@@ -1897,7 +1897,7 @@ margin-left: -50px;
     background-color: #717171;
   }
 
- .about-hero-text{
+ .hero-subpage-text{
      margin-top: -50px;
 
   }
@@ -2060,7 +2060,7 @@ height: 200px;
 /* Tablet  @media for slideshow */
 @media (min-width: 768px) {
 
-.about-grid {
+.about-contact-grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr;
@@ -2079,7 +2079,7 @@ height: 200px;
   height: 435px;
   background-color: #717171;
   }
- .about-hero-text{
+ .hero-subpage-text{
    margin-top: -150px;
      /*SUBPAGE HERO EDITS
      margin-top: -50px; */
@@ -2105,7 +2105,7 @@ margin-top: -290px;
   /*hero-subpage text for desktop*/
 @media (min-width: 992px){
   /*SUBPAGE HERO EDITS*/
- .about-hero-text{
+ .hero-subpage-text{
    margin-top: -180px;
   }
 }
