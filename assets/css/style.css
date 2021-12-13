@@ -2091,12 +2091,13 @@ height: 200px;
 
 /*contact for desktop*/
 @media (min-width: 992px) {
-.contact-grid {
+/*.contact-grid {
+
 display: grid;
 grid-template-columns: 1fr 1fr;
 grid-gap: 50px;
-margin-top: -290px;
-}
+margin-top: -290px; SUBPAGE HERO EDITS
+} */
 .contact-form {
   margin-top: -30px;
 }
