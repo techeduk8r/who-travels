@@ -2020,4 +2020,20 @@ margin-left: -50px;
 }
 
 
+.attribution-list {
+  place-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -250px;
 
+}
+
+.attribution-list-title  {
+font-size: 20px;
+font-weight: bold;
+}
+
+.attribution-list > li {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
