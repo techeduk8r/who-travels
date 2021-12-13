@@ -1917,45 +1917,25 @@ margin-left: -50px;
 
 /* Contact */
 
-.contact {
+.contact-grid {
   display: grid;
   grid-template-columns: 1fr;
-  margin: -310px 27px -20px 27px;
+  margin: -310px 27px 0px 27px;
 }
 
-.contact-field {
-  display: flex;
-  width: 100%;
-  border: #3F1A7A;
-  font-size: 18px;
-  border: 2px solid #3F1A7A;
-  border-radius: 0%;
-  background-color: ;
-  margin-top: 15px;
-  padding: 10px;
+.contact-form {
+  margin-top: -10px;
+}
+.contact-form label {
+line-height: 50px;
 
 }
-.contact-form-msg {
-  background-color: ;
-  margin-bottom: 10px;
+.contact-form input {
+margin-bottom: 50px;
 }
- .form-icons i {
-            position: absolute;
-        }
-
-        .form-icons {
-            width: 100%;
-            margin-bottom: 10px;
-        }
-
-        .icon {
-            padding: 10px;
-            color: #3F1A7A;
-            min-width: 50px;
-            text-align: center;
-        }
-
-
+.contact-question input {
+height: 200px;
+}
 
 /* about slideshow container styles */
 
@@ -2059,5 +2039,17 @@ margin-left: -50px;
 
 }
 
+/*contact for desktop*/
+@media (min-width: 992px) {
+.contact-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 50px;
+margin-top: -290px;
 
+}
+.contact-form {
+  margin-top: -30px;
+}
+}
 
