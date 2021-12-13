@@ -299,8 +299,8 @@ h3 {
   }
   .where-to {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    height: 1000px;
+    grid-template-rows: 1fr;
+    height: 500px;
     width: 100%;
     padding-bottom: 0px;
   }
