@@ -307,11 +307,11 @@ h3 {
     grid-template-rows: 1fr;
     height: 500px;
     width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
   }
 
   .where-to-card {
-background-size: 100%;
+background-size: 150%;
     opacity: 0.5;
   }
   .where-to-card:hover {
@@ -349,6 +349,11 @@ background-size: 100%;
     height:200px;
   }
 }
+@media (min-width: 1455px) {
+   .where-to-card {
+background-size: 100%;
+}
+   }
 
 /* Hero styles */
 .hero {
