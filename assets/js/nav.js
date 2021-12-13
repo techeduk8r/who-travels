@@ -6,8 +6,4 @@ openMenu.addEventListener('click', mobileMenu);
 
 function mobileMenu() {
   menu.classList.toggle('active');
-
-  function closeMenu() {
-    menu.classList.remove('active');
-  }
 }
