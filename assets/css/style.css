@@ -437,8 +437,8 @@ background-size: 100%;
 .other-popular-grid {
   display: grid;
   grid-auto-rows: 1fr 1fr;
-   grid-template-rows: 2.5fr 1fr 1.75fr;
-   align-items: center;
+   grid-template-rows: 2.25fr 1fr 1.75fr;
+   gap: 20px;
 }
 .others { grid-area: 1 / 1 / 2 / 2; }
 .popular { grid-area: 2 / 1 / 3 / 2;}
@@ -1748,6 +1748,8 @@ color: #FFFFFF;
 border: none;
 padding: 10px 15px 10px 15px;
 border-radius: 25px;
+display: flex;
+margin: auto;
 }
  .hero-body p {
   font-size: 20px;
