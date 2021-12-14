@@ -238,17 +238,17 @@ h3 {
 }
 
 .where-to-past {
-  background-image: url('/assets/img/where-to/past-768.jpg');
+  background-image: url('../img/where-to/past-768.jpg');
   background-color: #3f1a7a;
 }
 
 .where-to-future {
-   background-image: url('/assets/img/where-to/future-768.jpg');
+   background-image: url('../img/where-to/future-768.jpg');
    background-color: #3f1a7a;
 
 }
 .where-to-world {
-  background-image: url('/assets/img/where-to/space-768.jpg');
+  background-image: url('../img/where-to/space-768.jpg');
   background-position-y: bottom;
   background-color: #3f1a7a;
 }
@@ -321,17 +321,17 @@ background-size: 150%;
     text-shadow: 1px 1px 10px #000000;
   }
   .where-to-past {
-    background-image: url('/assets/img/where-to/past-desktop.jpg');
+    background-image: url('../img/where-to/past-desktop.jpg');
 
   }
 
   .where-to-future {
-    background-image: url('/assets/img/where-to/future-desktop.jpg');
+    background-image: url('../img/where-to/future-desktop.jpg');
 
   }
 
   .where-to-world {
-    background-image: url('/assets/img/where-to/space-desktop.jpg');
+    background-image: url('../img/where-to/space-desktop.jpg');
 
     background-position-y: top;
 
