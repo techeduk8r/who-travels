@@ -1730,8 +1730,6 @@ margin: -20px 0px 50px 0px;
 .entire-form-content{
   margin-top: -250px;
   display:grid;
-  grid-template-columns: 1;
-  grid-template-rows: 1;
   justify-items: center;
   padding-bottom: 150px;
   position: relative ;
@@ -1740,8 +1738,6 @@ margin: -20px 0px 50px 0px;
 
 .search-form {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
   color: #FFFFFF;
 }
 .search-form-item{
@@ -1782,7 +1778,7 @@ border-radius: 25px;
 @media (min-width: 768px){
   .entire-form-content{
   margin-top: -250px;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   margin-right: 40px;
   padding-bottom: 0px;
 }
