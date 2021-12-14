@@ -1880,7 +1880,7 @@ margin-left: -50px;
   }
 
  .hero-subpage-text{
-     margin-top: -50px;
+     margin-top: -50px; /*EDIT THIS*/
   }
 
 .about-locations-main  {
@@ -2042,20 +2042,20 @@ height: 200px;
   background-color: #717171;
   }
  .hero-subpage-text{
-   margin-top: -150px;
+   margin-top: -150px; /*EDIT THIS*/
   }
  }
 
 /*contact for desktop*/
 @media (min-width: 992px) {
 .contact-form {
-  margin-top: -30px;
+  margin-top: -30px; /*EDIT THIS*/
   }
 }
   /*hero-subpage text for desktop*/
 @media (min-width: 992px){
   .hero-subpage-text{
-   margin-top: -180px;
+   margin-top: -180px; /*EDIT THIS*/
   }
 }
 
