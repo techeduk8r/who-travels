@@ -1648,7 +1648,7 @@ grid-template-rows: repeat(4, 1fr);
     max-width: 95px;
     margin: 2px 15px;
     padding: 2px;
-    content: url('/assets/img/logos/logo-icon/who-travels-icon.svg');
+    content: url('../img/logos/logo-icon/who-travels-icon.svg');
   }
   .nav-li {
     border: 0;
@@ -1699,7 +1699,7 @@ gap: 20px 10px;
 
 .instagram {
   text-align: left;
-  padding: 0px 0px 0px 25px;
+  padding-left: 25px;
 }
 
 .insta-grid {
@@ -1712,15 +1712,16 @@ padding-bottom: 50px;
 .insta-text {
  grid-area: 1 / 1 / 2 / 7;
 padding: 0px;
-margin: -20px 0px 50px 0px;
+
 
 }
 .insta-name {
   font-size: 55px;
+  margin-bottom: 10px;
 }
 
 .insta-hashtag{
-  margin: -40px 0px;
+  margin: 0px 0px;
   font-size: 45px;
 }
 }
