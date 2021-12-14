@@ -460,9 +460,7 @@ gap: 100px;
   display: grid;
   grid-auto-rows: 1fr;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-   margin-top: -275px;
+  gap: 0px;
 }
 .others { grid-area: 1 / 1 / 2 / 2; }
 .popular { grid-area: 1 / 2 / 2 / 3; }
@@ -1766,20 +1764,11 @@ border-radius: 25px;
 }
 /*homepage searchform tablet*/
 @media (min-width: 768px){
-  .entire-form-content{
-  margin-top: -250px;
-  grid-template-rows: 1fr 1fr;
-  margin-right: 40px;
-  padding-bottom: 0px;
-}
-
 .search-form {
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1;
    height: 65px;
    column-gap: 25px;
    padding:20px;
-
 
 }
 .search-form-item input {
@@ -1806,12 +1795,9 @@ margin-top: 20px;
 
 @media (min-width: 992px) {
  .entire-form-content{
-  margin-top: -200px;
-  margin-bottom: 50px;
+   grid-template-columns: 3fr 1fr;
   display: grid;
-grid-template-columns: 1;
-gap: 10px 10px;
-padding-bottom: 150px;
+
 }
 
   .hero-body p {
@@ -1823,17 +1809,17 @@ padding-bottom: 150px;
 }
 
 .form-title {
-  grid-area: 1 / 1 / 2 / 3;
+  grid-area: 1 / 1 / -1 / -1;
 }
 
 .search-form {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
-column-gap: 50px;
+column-gap: 20px;
 }
 
 .search-form-item input {
-  height: 40px;
+  height: 50px;
   width: 255px;
 }
 .form-destination {
@@ -1841,14 +1827,12 @@ column-gap: 50px;
   width: 255px;
 }
 .search-form-button button {
-padding: 10px 10px 10px 10px;
+padding: 10px;
 height: 45px;
 font-weight: 700;
 font-size: 18px;
 margin-top: 45px;
 width: 200px;
-margin-left: -50px;
-
 }
 }
 
