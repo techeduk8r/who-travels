@@ -2062,8 +2062,9 @@ height: 200px;
 
 .about-contact-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
+  column-gap: 50px;
 }
 .about-button{
   margin-left:27px;
