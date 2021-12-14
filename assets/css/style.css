@@ -421,7 +421,6 @@ background-size: 100%;
 /*footer content*/
 .footer-content{
   display: grid;
-  grid-template-rows: 1;
   grid-template-columns: 1fr 1fr;
   color: white;
   background-color: #000000;
@@ -437,7 +436,6 @@ background-size: 100%;
 .other-popular-grid {
   display: grid;
   grid-auto-rows: 1fr 1fr;
-  grid-template-columns: 1fr;
    grid-template-rows: 2fr 1fr;
   gap: 75px;
 }
@@ -453,7 +451,7 @@ background-size: 100%;
 @media (min-width: 768px) {
   .other-popular-grid {
 margin-top: 0px;
-gap: 100px 100px;
+gap: 100px;
 }
 }
 /* Desktop */
