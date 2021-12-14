@@ -437,7 +437,7 @@ background-size: 100%;
 .other-popular-grid {
   display: grid;
   grid-auto-rows: 1fr 1fr;
-   grid-template-rows: 2.25fr 1fr 1.75fr;
+   grid-template-rows: 2.25fr 1fr 1.5fr;
    gap: 20px;
 }
 .others { grid-area: 1 / 1 / 2 / 2; }
