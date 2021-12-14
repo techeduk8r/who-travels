@@ -445,7 +445,7 @@ background-size: 100%;
 
 @media (min-width: 768px){
   .other-popular-grid {
-      grid-template-rows: repeat(2, 1fr);
+      grid-template-rows: 1.5fr 1fr 1fr;
   }
 }
 
@@ -611,7 +611,7 @@ background-color: #717171;
 @media (min-width: 768px) {
   .slideshow {
     display: grid;
-    grid-template-columns: 1fr, 2fr;
+    grid-template-columns: 40% 60%;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     margin: 10px;
@@ -1750,6 +1750,7 @@ padding: 10px 15px 10px 15px;
 border-radius: 25px;
 display: flex;
 margin: auto;
+text-align: center;
 }
  .hero-body p {
   font-size: 20px;
@@ -1774,8 +1775,8 @@ margin: auto;
 padding: 10px 20px 10px 20px;
 font-size: 18px;
 font-weight: 700;
-margin-left: 500px;
-margin-top: 20px;
+display: inline-block;
+margin: 20px 20px 20px 20px;
 }
 .hero-body p {
   padding-top: 35px;
