@@ -1952,6 +1952,9 @@ margin-left: -50px;
 .reach-out {
   margin: 30px 0px;
 }
+.reach-out input[type=submit] {
+  margin-top: 25px;
+}
 
 /* Contact */
 
