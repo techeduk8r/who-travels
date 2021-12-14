@@ -216,8 +216,6 @@ h3 {
 /*Where To Content*/
 .where-to-grid{
    display: grid;
-  grid-template-columns: 1fr;
-  margin-top: -300px;
 
 }
 
@@ -270,11 +268,6 @@ h3 {
 @media (min-width: 768px) {
   /*Where To page tablet content*/
 
-  .where-to-grid{
-  margin-top: -250px;
-
-}
-
   .where-to-title {
     margin-bottom: 55px;
   }
@@ -298,15 +291,13 @@ h3 {
 
 @media (min-width: 992px) {
   /*Where To page desktop content*/
-  .where-to-title {
-    margin-bottom: 90px;
-  }
+
   .where-to {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr; /* needed due to having three rows in mobile*/
     height: 500px;
     width: 100%;
-    padding-bottom: 50px;
+    padding-top: 50px;
   }
 
   .where-to-card {
