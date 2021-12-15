@@ -1891,7 +1891,7 @@ margin-left: -50px;
   font-weight: 400;
 }
 
-  .about-button {
+  .contact-link {
   background-color: #5904E0;
   border: none;
   color: #000000;
@@ -2027,7 +2027,7 @@ height: 200px;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr;
 }
-.about-button{
+.contact-link{
   margin-left:27px;
   font-size: 18px;
 }
