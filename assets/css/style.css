@@ -1060,7 +1060,7 @@ background-color: #717171;
     padding-left: 45px;
     text-align: left;
   }
-}
+
 
 .hero-destinations-h2 {
     font-size: 5rem;
@@ -1069,7 +1069,8 @@ background-color: #717171;
     position: relative;
     padding: 125px 0px 0px 30px;
   }
-  .hero-destinations-h2::before {
+
+.hero-destinations-h2::before {
   content: "Destinations";
   font-size: 10rem;
     letter-spacing: 0.1em;
