@@ -1895,7 +1895,7 @@ margin-left: -50px;
   background-color: #5904E0;
   border: none;
   color: #000000;
-  padding: 20px 40px;
+  padding: 20px 20px;
   text-align: center;
   text-decoration: none;
   display: block;
@@ -1904,11 +1904,10 @@ margin-left: -50px;
   cursor: pointer;
   border-radius: 100px;
   margin:auto;
+  width: 150px;
+  color: #fff;
 }
 
-.about-button a {
-  color:#FFF;
-}
 
 
 .about-text {
