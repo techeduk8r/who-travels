@@ -398,7 +398,125 @@ background-size: 100%;
   font-weight: 700;
   color: #ffffff;
   position: relative;
-  padding: 75px 0px 0px 25px;
+  padding: 75px 0px 0px 15px;
+}
+
+.hero-h2::before {
+  content: "Travels";
+  font-size: 6rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -15%;
+}
+
+.hero-book-h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+  padding: 75px 0px 0px 15px;
+}
+
+.hero-book-h2::before {
+  content: "Book";
+  font-size: 6rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -15%;
+}
+
+.hero-about-h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+  padding: 75px 0px 0px 15px;
+}
+
+.hero-about-h2::before {
+  content: "About";
+  font-size: 6rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -15%;
+}
+
+.hero-contact-h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+  padding: 75px 0px 0px 15px;
+}
+
+.hero-contact-h2::before {
+  content: "Contact";
+  font-size: 6rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -15%;
+}
+
+.hero-explore-h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+  padding: 75px 0px 0px 15px;
+}
+
+.hero-explore-h2::before {
+  content: "Explore";
+  font-size: 6rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -15%;
+}
+
+.hero-destinations-h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+  padding: 75px 0px 0px 15px;
+}
+
+.hero-destinations-h2::before {
+  content: "Destinations";
+  font-size: 6rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -15%;
+}
+
+.hero-attributions-h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+  padding: 75px 0px 0px 15px;
+}
+
+.hero-attributions-h2::before {
+  content: "Attributions";
+  font-size: 6rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -15%;
 }
 
 .hero-body {
@@ -682,6 +800,116 @@ background-color: #717171;
     position: relative;
     padding: 110px 0px 0px 30px;
   }
+  .hero-h2::before {
+  content: "Travels";
+  font-size: 9rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -15%;
+}
+
+.hero-book-h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    padding: 110px 0px 0px 30px;
+  }
+  .hero-book-h2::before {
+  content: "Book";
+  font-size: 9rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -15%;
+}
+.hero-about-h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    padding: 110px 0px 0px 30px;
+  }
+  .hero-about-h2::before {
+  content: "About";
+  font-size: 9rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -15%;
+}
+
+.hero-contact-h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    padding: 110px 0px 0px 30px;
+  }
+  .hero-contact-h2::before {
+  content: "Contact";
+  font-size: 9rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -15%;
+}
+
+.hero-explore-h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    padding: 110px 0px 0px 30px;
+  }
+  .hero-explore-h2::before {
+  content: "Explore";
+  font-size: 9rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -15%;
+}
+
+.hero-destinations-h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    padding: 110px 0px 0px 30px;
+  }
+  .hero-destinations-h2::before {
+  content: "Destinations";
+  font-size: 9rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -15%;
+}
+
+.hero-attributions-h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    padding: 110px 0px 0px 30px;
+  }
+  .hero-attributions-h2::before {
+  content: "Attributions";
+  font-size: 9rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -15%;
+}
 
   .hero-body {
     color: #ffffff;
@@ -712,8 +940,147 @@ background-color: #717171;
     position: relative;
     padding: 125px 0px 0px 30px;
   }
+  .hero-h2::before {
+  content: "Travels";
+  font-size: 10rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -15%;
+}
 
-  .hero-body {
+.hero-book-h2 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    padding: 125px 0px 0px 30px;
+  }
+  .hero-book-h2::before {
+  content: "Book";
+  font-size: 10rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -15%;
+}
+
+.hero-about-h2 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    padding: 125px 0px 0px 30px;
+  }
+  .hero-about-h2::before {
+  content: "About";
+  font-size: 10rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -15%;
+}
+
+.hero-contact-h2 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    padding: 125px 0px 0px 30px;
+  }
+  .hero-contact-h2::before {
+  content: "Contact";
+  font-size: 10rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -15%;
+}
+
+.hero-explore-h2 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    padding: 125px 0px 0px 30px;
+  }
+  .hero-explore-h2::before {
+  content: "Explore";
+  font-size: 10rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -15%;
+}
+
+.hero-destinations-h2 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    padding: 125px 0px 0px 30px;
+  }
+  .hero-destinations-h2::before {
+  content: "Destinations";
+  font-size: 10rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -15%;
+}
+
+.hero-attributions-h2 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    padding: 125px 0px 0px 30px;
+  }
+  .hero-attributions-h2::before {
+  content: "Attributions";
+  font-size: 10rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -15%;
+}
+
+.hero-body {
+    color: #ffffff;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+    font-size: 2em;
+    padding-left: 45px;
+    text-align: left;
+  }
+
+
+.hero-destinations-h2 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    padding: 125px 0px 0px 30px;
+  }
+
+.hero-destinations-h2::before {
+  content: "Destinations";
+  font-size: 10rem;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -15%;
+}
+
+.hero-body {
     color: #ffffff;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 30px;
@@ -722,7 +1089,6 @@ background-color: #717171;
     text-align: left;
   }
 }
-
 
 /* destination details styling */
 
