@@ -1870,6 +1870,7 @@ input[type=submit]  {
   margin: 0px 50px;
   padding: 0px;
    z-index: 2;
+   overflow: hidden;
 }
 
 .hamburger-icon,
