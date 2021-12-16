@@ -61,9 +61,8 @@ h3 {
 /* Destination */
 .destination {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 0px 0px;
+  grid-template-columns: 1fr;
+  gap: 0px;
   border: solid 4px #3f1a7a;
   margin: 20px;
   border: 4px solid #5904e;
@@ -72,7 +71,7 @@ h3 {
 }
 
 .destination-cover {
-  grid-area: 1 / 1 / 2 /4;
+  grid-area: 1 / 1 / 2 /3;
   justify-content: center;
 }
 
@@ -84,7 +83,7 @@ h3 {
 }
 
 .destination-content {
-  grid-area: 2 / 1 / 3 / 3;
+  grid-area: 2 / 1 / 3 / 2;
 }
 
 .destination-title {
@@ -126,18 +125,19 @@ h3 {
 }
 
 .destination-next {
-  grid-area: 2 / 3 / 3 / 4;
+  grid-area: 2 / 2 / 3 / 3;
   padding: 10px;
-  justify-self: right;
-  align-self: center;
+  justify-items: center;
+}
+
+.destination-next-text {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .fa-angle-right {
   color: #3f1a7a;
-  font-size: 6rem;
-  padding: 5px;
-  justify-self: center;
-  align-self: center;
+  font-size: 4rem;
 }
 
 /* Tablet and up */
