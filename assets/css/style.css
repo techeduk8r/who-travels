@@ -71,7 +71,7 @@ h3 {
 }
 
 .destination-cover {
-grid-area: 1 / 1 / 2 / 4;
+
   justify-content: center;
 }
 
@@ -83,7 +83,7 @@ grid-area: 1 / 1 / 2 / 4;
 }
 
 .destination-content {
-grid-area: 2 / 1 / 2 / 3;
+
 }
 
 .destination-title {
@@ -125,7 +125,7 @@ grid-area: 2 / 1 / 2 / 3;
 }
 
 .destination-next {
-  grid-area: 2 / 2 / 3 /4;
+
   align-self: flex-end;
 }
 
@@ -144,7 +144,7 @@ fa-angle-right {
 @media (min-width: 768px) {
   .destinations {
     grid-template-columns: 1fr 1fr;
-    gap: 25px;
+    gap: 5px;
     max-width: calc(2 * 350px);
   }
 
