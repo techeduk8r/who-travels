@@ -2242,12 +2242,15 @@ width: 200px;
   line-height: 2.5rem;
   font-weight: 400;
 }
+.contact-link{
+justify-self: center;
+padding: 10px;
+}
 
-  .contact-link a {
+.contact-link a {
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
   color: white;
-  text-align: left;
   font-weight: 700;
   cursor: pointer;
   background-color: #5904E0;
@@ -2257,7 +2260,6 @@ width: 200px;
 }
 
 .contact-link:hover {
-
   text-decoration: underline;
 }
 
