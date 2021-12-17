@@ -125,7 +125,6 @@ h3 {
 }
 
 .destination-next {
-
   align-self: flex-end;
 }
 
@@ -133,6 +132,15 @@ h3 {
   font-size: 18px;
   font-weight: bold;
   text-align: right;
+}
+
+.destination-next > a  {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #3f1a7a;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 fa-angle-right {
