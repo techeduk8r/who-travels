@@ -2375,7 +2375,9 @@ height: 200px;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 50px;
 }
-
+  .contact-link{
+justify-self: start;
+}
 }
 /*Hero tablet img*/
 @media (min-width: 768px){
